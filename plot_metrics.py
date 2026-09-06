@@ -43,15 +43,15 @@ def main():
                                       mean=float(values.mean()),q25=float(q25[-1]),q75=float(q75[-1]),
                                       mean_clipscore_drop=float(np.mean([r['clipscore_drop'] for r in batch]))))
                 color=COLORS[direction]
-                label='Prefix: mask scales 1..k' if direction=='prefix' else 'Suffix: mask scales k+1..10'
+                label='Prefix (scales 1..k)' if direction=='prefix' else 'Suffix (scales k+1..10)'
                 ax.plot(range(11),means,color=color,marker='o',markersize=3.5,lw=2,label=label)
                 ax.fill_between(range(11),q25,q75,color=color,alpha=.12,linewidth=0)
             if metric=='clipscore':
                 ax.axhline(results[semantic]['baseline_clipscore_mean'],color='#64748b',ls='--',lw=1,label='Unmasked baseline mean')
-                ax.set_ylabel('CLIPScore (full prompt; higher = more aligned)')
+                ax.set_ylabel('CLIPScore (full prompt)')
             else:
                 ax.axhline(0,color='#64748b',ls='--',lw=1)
-                ax.set_ylim(bottom=0);ax.set_ylabel('LPIPS to same-seed baseline (higher = more change)')
+                ax.set_ylim(bottom=0);ax.set_ylabel('LPIPS to same-seed baseline')
             ax.set_title(f'{LABELS[semantic]} · {"LPIPS" if metric=="lpips" else "CLIPScore"}',loc='left',fontsize=14)
             ax.set_xlabel('Scale boundary k (0..10)')
             ax.set_xticks(range(11));ax.grid(axis='y',color='#dbe1e8',lw=.6)
