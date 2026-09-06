@@ -66,7 +66,7 @@ def main():
                                 full_mask_lpips_mean=float(np.mean([r['lpips'] for r in full])))
         # Equivalent schedules must have identical endpoint measurements.
         for left,right in [(('prefix',0),('suffix',10)),(('prefix',10),('suffix',0))]:
-            assert sorted((r['input_id'],r['name']) for r in groups[semantic,*left])==sorted((r['input_id'],r['name']) for r in groups[semantic,*right])
+            assert sorted((r['input_id'],r['name']) for r in groups[(semantic,)+left])==sorted((r['input_id'],r['name']) for r in groups[(semantic,)+right])
     with (args.output/'curve_data.csv').open('w') as f:
         w=csv.DictWriter(f,fieldnames=list(table[0]));w.writeheader();w.writerows(table)
     (args.output/'results_summary.json').write_text(json.dumps(results,indent=2)+'\n')
