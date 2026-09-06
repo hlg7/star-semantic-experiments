@@ -64,7 +64,9 @@ python check_baseline.py --assets /workspace/star-baseline-assets --output /work
 
 先确认 strict 加载成功、无 NaN、重复结果一致、文本条件保持不变，再比较两种模式的图像质量和 prompt 响应。修正模式成功生成、甚至质量更好，都不能证明它与 checkpoint 训练时的代码一致。正式 masking 实验必须明确采用哪种实现；不要把两种结果混成一个 baseline。
 
-尚未在本地或 RunPod 加载模型、生成图片。当前验证范围仅为代码静态检查。
+已在 RunPod 的 Python 3.12.3 / PyTorch 2.8.0+cu128 / RTX 4090 环境完成单 prompt baseline 检查：两种模式各重复两次，重复哈希一致，原始文本条件保持不变。没有在本地运行模型。
+
+2026-09-06 尺度 masking 检查也已通过：`A red car.`、seed 42、目标 token 索引 2（`red</w>`），共 22 次生成。6300 个层/尺度审计点中，3300 个屏蔽点的目标权重均为零；所有 global/文本条件哈希一致，no-op 与之前 baseline 浮点输出完全相同，干预前轨迹及全程 mask 重复检查均通过。峰值 CUDA allocated memory 约 8.43 GiB。全程屏蔽后这一例仍呈现红色汽车，不能据此推断颜色的普遍尺度规律或 mask 无效。
 
 ## 依据
 
