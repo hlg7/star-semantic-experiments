@@ -1,0 +1,12 @@
+# Install a CUDA-compatible torch/torchvision pair separately on RunPod.
+transformers==4.37.2
+huggingface-hub==0.24.7
+numpy==1.26.4
+Pillow==10.4.0
+ftfy==6.2.3
+beautifulsoup4==4.12.3
+PyYAML==6.0.2
+einops==0.8.0
+scipy==1.13.1
+timm==0.9.16
+matplotlib==3.8.4
