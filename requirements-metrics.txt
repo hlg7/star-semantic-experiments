@@ -1,0 +1,5 @@
+# RunPod: create a separate venv with --system-site-packages to reuse existing CUDA torch.
+# Install with --no-deps; current STAR environment already provides torch/torchvision,
+# numpy, scipy, Pillow, tqdm, ftfy, packaging and regex. No transformers change needed.
+lpips==0.1.4
+clip @ git+https://github.com/openai/CLIP.git@d05afc436d78f1c48dc0dbf8e5980a9d471f35f6
