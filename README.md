@@ -32,6 +32,57 @@ The horizontal axis **k denotes a boundary between scales**, not an additional g
 
 Open an image to inspect it at full resolution. Each plot also has a PDF in the same directory; a [12-panel overview](reports/2026-09-06/overview.jpg) is available. Vertical axes are scaled independently, so compare numerical values rather than apparent line heights across panels.
 
+## Paired CLIPScore distributions
+
+These supplementary plots use the **existing scores**, without new generation or model inference. The original 12 plots, including all LPIPS curves, are unchanged.
+
+For each prompt and seed, `delta = CLIPScore(mask) − CLIPScore(its own baseline)`. Positive values indicate a higher score; negative values indicate a lower score. This is the opposite sign to the stored `clipscore_drop` field. LPIPS already compares an image with its paired baseline and does not need this subtraction.
+
+Each figure has a prefix panel and a suffix panel. Every point represents one of the 50 prompts at that boundary; small horizontal offsets only prevent overlap. Diamonds and colored lines show means, black box lines show medians, boxes show the interquartile range, and whiskers extend to the most extreme observations within 1.5×IQR of the box. All outliers remain visible as points. All six figures share the same vertical limits. These distributions are not confidence intervals or tests of significance; prompts share scene templates and only seed 42 was used.
+
+The mean difference is exactly the original mean curve minus its baseline mean. The additional information is the **distribution of per-prompt changes**, not a new mean trend. Equivalent endpoints reuse the same observations.
+
+### Object: paired changes
+
+![Object paired CLIPScore](reports/2026-09-06/paired_clipscore/object_clipscore_delta.png)
+
+### Color: paired changes
+
+![Color paired CLIPScore](reports/2026-09-06/paired_clipscore/color_clipscore_delta.png)
+
+### Shape: paired changes
+
+![Shape paired CLIPScore](reports/2026-09-06/paired_clipscore/shape_clipscore_delta.png)
+
+### Texture: paired changes
+
+![Texture paired CLIPScore](reports/2026-09-06/paired_clipscore/texture_clipscore_delta.png)
+
+### Count: paired changes
+
+![Count paired CLIPScore](reports/2026-09-06/paired_clipscore/count_clipscore_delta.png)
+
+### Spatial relation: paired changes
+
+![Spatial relation paired CLIPScore](reports/2026-09-06/paired_clipscore/spatial_relation_clipscore_delta.png)
+
+Full-mask changes across 50 prompts:
+
+| Semantic | Up | Down | Unchanged | Mean delta | Median delta |
+|---|---:|---:|---:|---:|---:|
+| Object | 28 | 22 | 0 | +0.0056 | +0.0010 |
+| Color | 27 | 23 | 0 | +0.0032 | +0.0034 |
+| Shape | 23 | 27 | 0 | -0.0000 | -0.0008 |
+| Texture | 25 | 25 | 0 | +0.0014 | +0.0003 |
+| Count | 16 | 34 | 0 | -0.0116 | -0.0097 |
+| Spatial relation | 27 | 23 | 0 | +0.0009 | +0.0041 |
+
+“Unchanged” means an absolute difference ≤1e-6, a numerical display tolerance rather than a threshold for meaningful change. Up/down refer only to CLIPScore, not semantic success or image quality.
+
+The small positive means in several groups coexist with nearly balanced increases and decreases. For example, texture has 25 increases and 25 decreases. Count has 34 decreases and 16 increases, with both its mean and median below zero. These results clarify the average curves but do not establish semantic correctness or statistical significance.
+
+[All 132 condition summaries](reports/2026-09-06/paired_clipscore/clipscore_delta_summary.csv) are available, and each PNG has a matching PDF in the same directory.
+
 ## Observations
 
 1. **Early interventions produce measurable changes in the final image.** Masking only scale 1 yields mean LPIPS values of approximately 0.118–0.143 across the six groups; masking only scale 10 yields approximately 0.0028–0.0043. Suffix distances generally approach zero at later boundaries. Prefix curves are not strictly monotonic.
@@ -63,6 +114,7 @@ Full-mask endpoint means are shown below. `CLIP drop = baseline − full mask`; 
 ├── validate_prompts.py              # Check token IDs, context length, and target spans
 ├── evaluate_metrics.py              # Offline CLIPScore and paired LPIPS evaluation
 ├── plot_metrics.py                  # Aggregate metrics and export PNG/PDF curves
+├── plot_clip_deltas.py               # Per-prompt CLIPScore difference distributions
 ├── data/
 │   ├── README.md                   # Documentation for the initial short-prompt pilot
 │   ├── build_pilot.py               # Rebuild that historical pilot
@@ -77,7 +129,8 @@ Full-mask endpoint means are shown below. `CLIP drop = baseline − full mask`; 
 └── reports/2026-09-06/
     ├── *_lpips.png / *_clipscore.png  # 12 plots embedded above
     ├── *_lpips.pdf / *_clipscore.pdf  # Vector exports of the same plots
-    ├── overview.jpg                  # Contact sheet of all 12 plots
+    ├── overview.jpg                  # Contact sheet of the original 12 plots
+    ├── paired_clipscore/             # Six paired-distribution PNG/PDF figures and summary CSV
     ├── metrics.jsonl                 # 6,000 per-image metric records with condition aliases
     ├── curve_data.csv                # Aggregates underlying every curve point
     ├── results_summary.json          # Baseline and full-mask means by semantic
@@ -161,6 +214,8 @@ To redraw the committed results without the original images or GPU:
 ```bash
 python plot_metrics.py --metrics reports/2026-09-06 \
   --output /tmp/star-csfm50-redrawn
+python plot_clip_deltas.py --metrics reports/2026-09-06 \
+  --output /tmp/star-csfm50-paired-redrawn
 ```
 
 STAR source is pinned to `4ae4492b45bfa1ac24eadcf83c8d474837bfc4b1`; the weight repository is pinned to `23fab671cb225c27a85321309129994498185338`. The reported generation used commit `51aa98f`, evaluation used `5bfa966`, and the published figure layout was introduced in `7e4459a`. Metric evaluation reuses complete stage caches only when their configuration matches. The original run directory is `/workspace/star-csfm50-20260906`.
