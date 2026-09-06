@@ -85,8 +85,6 @@ for r in rows:
  ids.setdefault(r['prompt'],f'prompt_{len(ids)+1:03d}');r['prompt_id']=ids[r['prompt']]
  assert 20<=r['word_count']<=50,(r['id'],r['word_count'])
 (P/'prompts.json').write_text(json.dumps(rows,ensure_ascii=False,indent=2)+'\n')
-for sem in Counter(x['semantic'] for x in rows):
- (P/f'{sem}.json').write_text(json.dumps([x for x in rows if x['semantic']==sem],ensure_ascii=False,indent=2)+'\n')
 review=['# 今日实验：六类各50条','','基于 CSFM 的10个场景主题人工构造，不是随机抽取的300条原始caption。属性及对象均可能被修改。加粗为唯一干预目标；完整来源与改写见 JSON。','']
 for sem in Counter(x['semantic'] for x in rows):
  review += [f'## {sem}','','|ID|Prompt|子类|','|---|---|---|']

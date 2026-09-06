@@ -18,7 +18,10 @@ def main():
     p.add_argument('--output',type=Path,required=True)
     args=p.parse_args()
     records=[json.loads(x) for x in (args.metrics/'metrics.jsonl').read_text().splitlines()]
-    if json.loads((args.metrics/'summary.json').read_text())['status']!='passed':raise RuntimeError('Metrics not complete')
+    summary_path = args.metrics/'summary.json'
+    if not summary_path.exists():
+        summary_path = args.metrics/'metric_summary.json'  # Committed report layout.
+    if json.loads(summary_path.read_text())['status']!='passed':raise RuntimeError('Metrics not complete')
     args.output.mkdir(parents=True,exist_ok=True)
     groups=defaultdict(list)
     for r in records:
