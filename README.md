@@ -1,6 +1,26 @@
 # STAR baseline 检查（仅在 RunPod 运行）
 
-当前只准备 baseline 诊断，不包含正式 semantic masking、100 条 prompt 数据集或 metric。
+包括 baseline 诊断与小规模尺度 masking 正确性检查；尚不包含正式 prompt 数据集或 semantic metric。
+
+## 尺度 masking 检查
+
+在已准备好 assets 的 RunPod 上执行：
+
+```bash
+python -u check_masking.py --assets /workspace/star-baseline-assets --output /workspace/star-mask-check-001
+```
+
+默认输入是 `mask_smoke.json` 中的 `A red car.`，目标 `red`，字符区间 `[2,5)`。输入为包含 `id`、`prompt`、`semantic`、`spans` 的 JSON 数组，区间使用 Python 字符索引（左闭右开）。可用 `--input` 指定其他文件。
+
+程序用配套 fast tokenizer 定位字符区间，并要求它与实际 CLIPTokenizer 的完整 token IDs 完全一致。拒绝截断、无对应 token 或切断 token 的目标区间，不屏蔽特殊 token。
+
+固定原始 STAR `[0]` 广播行为、B=1、完整 global 特征与原始文本 embeddings。仅通过 cross-attention pre-hook 改动条件分支的 attention bias，所有层和 head 均生效。空文本分支的原始 mask 不变，但因原始 `[0]` 行为，两条 CFG 分支最终都会收到被干预的 conditional attention 输出。
+
+对于 10 个尺度，`prefix k` 屏蔽 1 至 k，`suffix k` 屏蔽 k+1 至 10；k 从 0 到 10。合并相同端点后有 20 个唯一条件，另加无 hook 参考和全程 mask 重复，共 22 次生成。`runs.jsonl` 的 aliases 保存等价条件名称。
+
+检查所有层/尺度的目标 attention 权重（用实际传入 SDP 的 Q/K、scale 和 bias，以 FP32 重算 softmax）；被 mask 时必须严格为零。保留原 SDP 计算结果，不用重算值替代生成。额外检查 no-op 与无 hook 参考逐位一致、干预前累计视觉状态哈希一致、原始文本和 global 哈希不变、全程 mask 重复一致。原始 self-attention 缓存保留，允许前段干预的影响传播到后续尺度。
+
+结果写入 PNG、manifest.json、runs.jsonl 和完成后才生成的 summary.json。使用全新输出目录；目前是完整审计入口，不是高吞吐或断点续跑的正式批处理入口。环境已在 Python 3.12.3、PyTorch 2.8.0+cu128、torchvision 0.23.0+cu128、RTX 4090 上完成 baseline 实测；保留 Pod 已有的这套 PyTorch，不必降级。
 
 ## 环境与准备
 

@@ -1,0 +1,8 @@
+[
+  {
+    "id": "red_car_color",
+    "prompt": "A red car.",
+    "semantic": "color",
+    "spans": [[2, 5]]
+  }
+]
