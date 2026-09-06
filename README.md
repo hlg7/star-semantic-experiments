@@ -32,6 +32,28 @@ The horizontal axis **k denotes a boundary between scales**, not an additional g
 
 Open an image to inspect it at full resolution. Each plot also has a PDF in the same directory; a [12-panel overview](reports/2026-09-06/overview.jpg) is available. Vertical axes are scaled independently, so compare numerical values rather than apparent line heights across panels.
 
+## LPIPS at matched mask counts
+
+This supplementary view reindexes the existing LPIPS results by **the number of masked scales m**, comparing the earliest m scales with the latest m scales:
+
+- **Blue:** `prefix(k=m)`, masking scales `1..m`.
+- **Orange:** `suffix(k=10−m)`, masking scales `11−m..10`.
+
+This reverses the horizontal order of the original suffix curve; no scores are recomputed. Both curves start at the unmasked baseline (m=0) and end at the same full-mask condition (m=10). Lines show the mean over the same 50 prompts, and shading shows the interquartile range, not a confidence interval. All six figures share vertical limits.
+
+| Semantic | Matched-count LPIPS |
+|---|---|
+| **Object** | ![Object matched-count LPIPS](reports/2026-09-06/lpips_extent/object_lpips_extent.png) |
+| **Color** | ![Color matched-count LPIPS](reports/2026-09-06/lpips_extent/color_lpips_extent.png) |
+| **Shape** | ![Shape matched-count LPIPS](reports/2026-09-06/lpips_extent/shape_lpips_extent.png) |
+| **Texture** | ![Texture matched-count LPIPS](reports/2026-09-06/lpips_extent/texture_lpips_extent.png) |
+| **Count** | ![Count matched-count LPIPS](reports/2026-09-06/lpips_extent/count_lpips_extent.png) |
+| **Spatial relation** | ![Spatial relation matched-count LPIPS](reports/2026-09-06/lpips_extent/spatial_relation_lpips_extent.png) |
+
+At small mask counts, masking the earliest scales produces larger mean image changes than masking the latest scales. For example, masking one scale in the object group gives LPIPS 0.1238 for scale 1 versus 0.0033 for scale 10. The curves can cross at larger mask counts; they are not required to be symmetric or monotonic. Matching scale counts does not match visual-token counts or downstream propagation time, so this view does not isolate semantic importance at individual scales.
+
+[Reindexed data with original boundaries](reports/2026-09-06/lpips_extent/lpips_extent_data.csv) and matching PDFs are included. The original figures remain unchanged.
+
 ## Paired CLIPScore distributions
 
 These supplementary plots use the **existing scores**, without new generation or model inference. The original 12 plots, including all LPIPS curves, are unchanged.
@@ -115,6 +137,7 @@ Full-mask endpoint means are shown below. `CLIP drop = baseline − full mask`; 
 ├── evaluate_metrics.py              # Offline CLIPScore and paired LPIPS evaluation
 ├── plot_metrics.py                  # Aggregate metrics and export PNG/PDF curves
 ├── plot_clip_deltas.py               # Per-prompt CLIPScore difference distributions
+├── plot_lpips_extent.py              # LPIPS for equal counts of early vs. late masked scales
 ├── data/
 │   ├── README.md                   # Documentation for the initial short-prompt pilot
 │   ├── build_pilot.py               # Rebuild that historical pilot
@@ -130,6 +153,7 @@ Full-mask endpoint means are shown below. `CLIP drop = baseline − full mask`; 
     ├── *_lpips.png / *_clipscore.png  # 12 plots embedded above
     ├── *_lpips.pdf / *_clipscore.pdf  # Vector exports of the same plots
     ├── overview.jpg                  # Contact sheet of the original 12 plots
+    ├── lpips_extent/                 # Six matched-count LPIPS PNG/PDF figures and reindexed CSV
     ├── paired_clipscore/             # Six paired-distribution PNG/PDF figures and summary CSV
     ├── metrics.jsonl                 # 6,000 per-image metric records with condition aliases
     ├── curve_data.csv                # Aggregates underlying every curve point
@@ -216,6 +240,8 @@ python plot_metrics.py --metrics reports/2026-09-06 \
   --output /tmp/star-csfm50-redrawn
 python plot_clip_deltas.py --metrics reports/2026-09-06 \
   --output /tmp/star-csfm50-paired-redrawn
+python plot_lpips_extent.py --curves reports/2026-09-06/curve_data.csv \
+  --output /tmp/star-csfm50-extent-redrawn
 ```
 
 STAR source is pinned to `4ae4492b45bfa1ac24eadcf83c8d474837bfc4b1`; the weight repository is pinned to `23fab671cb225c27a85321309129994498185338`. The reported generation used commit `51aa98f`, evaluation used `5bfa966`, and the published figure layout was introduced in `7e4459a`. Metric evaluation reuses complete stage caches only when their configuration matches. The original run directory is `/workspace/star-csfm50-20260906`.
