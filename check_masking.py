@@ -9,7 +9,7 @@ import subprocess
 import sys
 import time
 
-from check_baseline import COMMIT, WEIGHTS_REVISION, PATCH_NUMS
+from check_baseline import COMMIT, WEIGHTS_REVISION, PATCH_NUMS, source_changes
 
 
 def schedules(count):
@@ -60,7 +60,7 @@ def main():
     repo = args.assets.resolve() / "STAR-T2I"
     if subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip() != COMMIT:
         raise RuntimeError("Wrong upstream source revision")
-    if subprocess.check_output(["git", "-C", str(repo), "status", "--porcelain"], text=True).strip():
+    if source_changes(repo):
         raise RuntimeError("Upstream checkout must remain clean")
     os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
     import numpy as np

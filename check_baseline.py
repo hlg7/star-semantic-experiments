@@ -16,6 +16,15 @@ WEIGHTS_REVISION = "23fab671cb225c27a85321309129994498185338"
 PATCH_NUMS = (1, 2, 3, 4, 5, 6, 8, 10, 13, 16)
 
 
+def source_changes(repo):
+    """Allow only untracked Python cache artifacts from previous inference."""
+    status = subprocess.check_output(
+        ["git", "-C", str(repo), "status", "--porcelain", "--untracked-files=all"], text=True)
+    return [line for line in status.splitlines()
+            if not (line.startswith("?? ") and "__pycache__" in Path(line[3:]).parts
+                    and line.endswith(".pyc"))]
+
+
 def arguments():
     p = argparse.ArgumentParser(description=__doc__)
     p.add_argument("--assets", type=Path, default=Path("/workspace/star-baseline-assets"))
@@ -46,7 +55,7 @@ def main():
 
     repo = args.assets.resolve() / "STAR-T2I"
     revision = subprocess.check_output(["git", "-C", str(repo), "rev-parse", "HEAD"], text=True).strip()
-    dirty = subprocess.check_output(["git", "-C", str(repo), "status", "--porcelain"], text=True).strip()
+    dirty = source_changes(repo)
     if revision != COMMIT or dirty:
         raise SystemExit("Expected the clean, pinned upstream checkout. Do not patch its files.")
     os.environ.setdefault("CUBLAS_WORKSPACE_CONFIG", ":4096:8")
