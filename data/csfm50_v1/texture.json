@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "texture_001",
+    "prompt": "A striped shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "shirt",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The shirt is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_151"
+  },
+  {
+    "id": "texture_002",
+    "prompt": "A striped scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "scarf",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The scarf is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_152"
+  },
+  {
+    "id": "texture_003",
+    "prompt": "A striped hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "hat",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The hat is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_153"
+  },
+  {
+    "id": "texture_004",
+    "prompt": "A striped handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "handbag",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The handbag is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_154"
+  },
+  {
+    "id": "texture_005",
+    "prompt": "A striped sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "sock",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The sock is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_155"
+  },
+  {
+    "id": "texture_006",
+    "prompt": "A striped blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "blanket",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The blanket is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_156"
+  },
+  {
+    "id": "texture_007",
+    "prompt": "A striped cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "cushion",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The cushion is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_157"
+  },
+  {
+    "id": "texture_008",
+    "prompt": "A striped curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "curtain",
+    "subtype": "pattern",
+    "scene_family": "scene_02",
+    "expected": "The curtain is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_158"
+  },
+  {
+    "id": "texture_009",
+    "prompt": "A striped tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "tablecloth",
+    "subtype": "pattern",
+    "scene_family": "scene_01",
+    "expected": "The tablecloth is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_159"
+  },
+  {
+    "id": "texture_010",
+    "prompt": "A striped umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "umbrella",
+    "subtype": "pattern",
+    "scene_family": "scene_03",
+    "expected": "The umbrella is striped.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 25,
+    "prompt_id": "prompt_160"
+  },
+  {
+    "id": "texture_011",
+    "prompt": "A checkered shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "shirt",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The shirt is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_161"
+  },
+  {
+    "id": "texture_012",
+    "prompt": "A checkered scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "scarf",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The scarf is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_162"
+  },
+  {
+    "id": "texture_013",
+    "prompt": "A checkered hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "hat",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The hat is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_163"
+  },
+  {
+    "id": "texture_014",
+    "prompt": "A checkered handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "handbag",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The handbag is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_164"
+  },
+  {
+    "id": "texture_015",
+    "prompt": "A checkered sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "sock",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The sock is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_165"
+  },
+  {
+    "id": "texture_016",
+    "prompt": "A checkered blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "blanket",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The blanket is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_166"
+  },
+  {
+    "id": "texture_017",
+    "prompt": "A checkered cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "cushion",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The cushion is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_167"
+  },
+  {
+    "id": "texture_018",
+    "prompt": "A checkered curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "curtain",
+    "subtype": "pattern",
+    "scene_family": "scene_02",
+    "expected": "The curtain is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_168"
+  },
+  {
+    "id": "texture_019",
+    "prompt": "A checkered tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "tablecloth",
+    "subtype": "pattern",
+    "scene_family": "scene_01",
+    "expected": "The tablecloth is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_169"
+  },
+  {
+    "id": "texture_020",
+    "prompt": "A checkered umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "umbrella",
+    "subtype": "pattern",
+    "scene_family": "scene_03",
+    "expected": "The umbrella is checkered.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 25,
+    "prompt_id": "prompt_170"
+  },
+  {
+    "id": "texture_021",
+    "prompt": "A polka-dotted shirt is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "shirt",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The shirt is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_171"
+  },
+  {
+    "id": "texture_022",
+    "prompt": "A polka-dotted scarf is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "scarf",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The scarf is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_172"
+  },
+  {
+    "id": "texture_023",
+    "prompt": "A polka-dotted hat is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "hat",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The hat is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_173"
+  },
+  {
+    "id": "texture_024",
+    "prompt": "A polka-dotted handbag is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "handbag",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The handbag is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_174"
+  },
+  {
+    "id": "texture_025",
+    "prompt": "A polka-dotted sock is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "sock",
+    "subtype": "pattern",
+    "scene_family": "scene_06",
+    "expected": "The sock is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_175"
+  },
+  {
+    "id": "texture_026",
+    "prompt": "A polka-dotted blanket is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "blanket",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The blanket is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_176"
+  },
+  {
+    "id": "texture_027",
+    "prompt": "A polka-dotted cushion is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "cushion",
+    "subtype": "pattern",
+    "scene_family": "scene_04",
+    "expected": "The cushion is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 28,
+    "prompt_id": "prompt_177"
+  },
+  {
+    "id": "texture_028",
+    "prompt": "A polka-dotted curtain is shown with its surface clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "curtain",
+    "subtype": "pattern",
+    "scene_family": "scene_02",
+    "expected": "The curtain is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_178"
+  },
+  {
+    "id": "texture_029",
+    "prompt": "A polka-dotted tablecloth is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "tablecloth",
+    "subtype": "pattern",
+    "scene_family": "scene_01",
+    "expected": "The tablecloth is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_179"
+  },
+  {
+    "id": "texture_030",
+    "prompt": "A polka-dotted umbrella is shown with its surface clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "umbrella",
+    "subtype": "pattern",
+    "scene_family": "scene_03",
+    "expected": "The umbrella is polka-dotted.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 25,
+    "prompt_id": "prompt_180"
+  },
+  {
+    "id": "texture_031",
+    "prompt": "A rough vase is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "vase",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The vase is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_181"
+  },
+  {
+    "id": "texture_032",
+    "prompt": "A rough bowl is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "bowl",
+    "subtype": "surface",
+    "scene_family": "scene_07",
+    "expected": "The bowl is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_182"
+  },
+  {
+    "id": "texture_033",
+    "prompt": "A rough plate is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "plate",
+    "subtype": "surface",
+    "scene_family": "scene_07",
+    "expected": "The plate is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_183"
+  },
+  {
+    "id": "texture_034",
+    "prompt": "A rough stone is shown with its surface clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "stone",
+    "subtype": "surface",
+    "scene_family": "scene_00",
+    "expected": "The stone is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_184"
+  },
+  {
+    "id": "texture_035",
+    "prompt": "A rough flowerpot is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "flowerpot",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The flowerpot is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_185"
+  },
+  {
+    "id": "texture_036",
+    "prompt": "A rough wooden box is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "wooden box",
+    "subtype": "surface",
+    "scene_family": "scene_06",
+    "expected": "The wooden box is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_186"
+  },
+  {
+    "id": "texture_037",
+    "prompt": "A rough ceramic tile is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "ceramic tile",
+    "subtype": "surface",
+    "scene_family": "scene_04",
+    "expected": "The ceramic tile is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 29,
+    "prompt_id": "prompt_187"
+  },
+  {
+    "id": "texture_038",
+    "prompt": "A rough sculpture is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "sculpture",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The sculpture is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_188"
+  },
+  {
+    "id": "texture_039",
+    "prompt": "A rough tray is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "tray",
+    "subtype": "surface",
+    "scene_family": "scene_01",
+    "expected": "The tray is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_189"
+  },
+  {
+    "id": "texture_040",
+    "prompt": "A rough statue is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "statue",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The statue is rough.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_190"
+  },
+  {
+    "id": "texture_041",
+    "prompt": "A smooth vase is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "vase",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The vase is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_191"
+  },
+  {
+    "id": "texture_042",
+    "prompt": "A smooth bowl is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "bowl",
+    "subtype": "surface",
+    "scene_family": "scene_07",
+    "expected": "The bowl is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_192"
+  },
+  {
+    "id": "texture_043",
+    "prompt": "A smooth plate is shown with its surface clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "plate",
+    "subtype": "surface",
+    "scene_family": "scene_07",
+    "expected": "The plate is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_193"
+  },
+  {
+    "id": "texture_044",
+    "prompt": "A smooth stone is shown with its surface clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "stone",
+    "subtype": "surface",
+    "scene_family": "scene_00",
+    "expected": "The stone is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_194"
+  },
+  {
+    "id": "texture_045",
+    "prompt": "A smooth flowerpot is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "flowerpot",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The flowerpot is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_195"
+  },
+  {
+    "id": "texture_046",
+    "prompt": "A smooth wooden box is shown with its surface clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "wooden box",
+    "subtype": "surface",
+    "scene_family": "scene_06",
+    "expected": "The wooden box is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_196"
+  },
+  {
+    "id": "texture_047",
+    "prompt": "A smooth ceramic tile is shown with its surface clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "ceramic tile",
+    "subtype": "surface",
+    "scene_family": "scene_04",
+    "expected": "The ceramic tile is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 29,
+    "prompt_id": "prompt_197"
+  },
+  {
+    "id": "texture_048",
+    "prompt": "A smooth sculpture is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "sculpture",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The sculpture is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_198"
+  },
+  {
+    "id": "texture_049",
+    "prompt": "A smooth tray is shown with its surface clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "tray",
+    "subtype": "surface",
+    "scene_family": "scene_01",
+    "expected": "The tray is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 27,
+    "prompt_id": "prompt_199"
+  },
+  {
+    "id": "texture_050",
+    "prompt": "A smooth statue is shown with its surface clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "statue",
+    "subtype": "surface",
+    "scene_family": "scene_09",
+    "expected": "The statue is smooth.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定图案或表面质感，避免在背景重复该目标。",
+    "word_count": 26,
+    "prompt_id": "prompt_200"
+  }
+]

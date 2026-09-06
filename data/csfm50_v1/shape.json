@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "shape_001",
+    "prompt": "A round plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "plate",
+    "subtype": "outline",
+    "scene_family": "scene_07",
+    "expected": "The plate has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_101"
+  },
+  {
+    "id": "shape_002",
+    "prompt": "A round mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The mirror has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_102"
+  },
+  {
+    "id": "shape_003",
+    "prompt": "A round tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "tray",
+    "subtype": "outline",
+    "scene_family": "scene_01",
+    "expected": "The tray has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_103"
+  },
+  {
+    "id": "shape_004",
+    "prompt": "A round rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "rug",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The rug has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_104"
+  },
+  {
+    "id": "shape_005",
+    "prompt": "A round picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "picture frame",
+    "subtype": "outline",
+    "scene_family": "scene_05",
+    "expected": "The picture frame has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_105"
+  },
+  {
+    "id": "shape_006",
+    "prompt": "A round tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "tabletop",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The tabletop has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_106"
+  },
+  {
+    "id": "shape_007",
+    "prompt": "A round cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "cushion",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The cushion has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_107"
+  },
+  {
+    "id": "shape_008",
+    "prompt": "A round wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "wall clock",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The wall clock has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_108"
+  },
+  {
+    "id": "shape_009",
+    "prompt": "A round sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "sign",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The sign has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_109"
+  },
+  {
+    "id": "shape_010",
+    "prompt": "A round floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "floor mat",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The floor mat has a round outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 30,
+    "prompt_id": "prompt_110"
+  },
+  {
+    "id": "shape_011",
+    "prompt": "A square plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "plate",
+    "subtype": "outline",
+    "scene_family": "scene_07",
+    "expected": "The plate has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_111"
+  },
+  {
+    "id": "shape_012",
+    "prompt": "A square mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The mirror has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_112"
+  },
+  {
+    "id": "shape_013",
+    "prompt": "A square tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "tray",
+    "subtype": "outline",
+    "scene_family": "scene_01",
+    "expected": "The tray has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_113"
+  },
+  {
+    "id": "shape_014",
+    "prompt": "A square rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "rug",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The rug has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_114"
+  },
+  {
+    "id": "shape_015",
+    "prompt": "A square picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "picture frame",
+    "subtype": "outline",
+    "scene_family": "scene_05",
+    "expected": "The picture frame has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_115"
+  },
+  {
+    "id": "shape_016",
+    "prompt": "A square tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "tabletop",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The tabletop has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_116"
+  },
+  {
+    "id": "shape_017",
+    "prompt": "A square cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "cushion",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The cushion has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_117"
+  },
+  {
+    "id": "shape_018",
+    "prompt": "A square wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "wall clock",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The wall clock has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_118"
+  },
+  {
+    "id": "shape_019",
+    "prompt": "A square sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "sign",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The sign has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_119"
+  },
+  {
+    "id": "shape_020",
+    "prompt": "A square floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "floor mat",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The floor mat has a square outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 30,
+    "prompt_id": "prompt_120"
+  },
+  {
+    "id": "shape_021",
+    "prompt": "A triangular plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "plate",
+    "subtype": "outline",
+    "scene_family": "scene_07",
+    "expected": "The plate has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_121"
+  },
+  {
+    "id": "shape_022",
+    "prompt": "A triangular mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The mirror has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_122"
+  },
+  {
+    "id": "shape_023",
+    "prompt": "A triangular tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "tray",
+    "subtype": "outline",
+    "scene_family": "scene_01",
+    "expected": "The tray has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_123"
+  },
+  {
+    "id": "shape_024",
+    "prompt": "A triangular rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "rug",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The rug has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_124"
+  },
+  {
+    "id": "shape_025",
+    "prompt": "A triangular picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "picture frame",
+    "subtype": "outline",
+    "scene_family": "scene_05",
+    "expected": "The picture frame has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_125"
+  },
+  {
+    "id": "shape_026",
+    "prompt": "A triangular tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "tabletop",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The tabletop has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_126"
+  },
+  {
+    "id": "shape_027",
+    "prompt": "A triangular cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "cushion",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The cushion has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_127"
+  },
+  {
+    "id": "shape_028",
+    "prompt": "A triangular wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "wall clock",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The wall clock has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_128"
+  },
+  {
+    "id": "shape_029",
+    "prompt": "A triangular sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "sign",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The sign has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_129"
+  },
+  {
+    "id": "shape_030",
+    "prompt": "A triangular floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "floor mat",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The floor mat has a triangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 30,
+    "prompt_id": "prompt_130"
+  },
+  {
+    "id": "shape_031",
+    "prompt": "An oval plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "plate",
+    "subtype": "outline",
+    "scene_family": "scene_07",
+    "expected": "The plate has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_131"
+  },
+  {
+    "id": "shape_032",
+    "prompt": "An oval mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The mirror has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_132"
+  },
+  {
+    "id": "shape_033",
+    "prompt": "An oval tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "tray",
+    "subtype": "outline",
+    "scene_family": "scene_01",
+    "expected": "The tray has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_133"
+  },
+  {
+    "id": "shape_034",
+    "prompt": "An oval rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "rug",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The rug has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_134"
+  },
+  {
+    "id": "shape_035",
+    "prompt": "An oval picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "picture frame",
+    "subtype": "outline",
+    "scene_family": "scene_05",
+    "expected": "The picture frame has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_135"
+  },
+  {
+    "id": "shape_036",
+    "prompt": "An oval tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "tabletop",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The tabletop has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_136"
+  },
+  {
+    "id": "shape_037",
+    "prompt": "An oval cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "cushion",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The cushion has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_137"
+  },
+  {
+    "id": "shape_038",
+    "prompt": "An oval wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "wall clock",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The wall clock has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_138"
+  },
+  {
+    "id": "shape_039",
+    "prompt": "An oval sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "sign",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The sign has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_139"
+  },
+  {
+    "id": "shape_040",
+    "prompt": "An oval floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "floor mat",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The floor mat has a oval outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 30,
+    "prompt_id": "prompt_140"
+  },
+  {
+    "id": "shape_041",
+    "prompt": "A rectangular plate is shown with its outer outline clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "plate",
+    "subtype": "outline",
+    "scene_family": "scene_07",
+    "expected": "The plate has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_141"
+  },
+  {
+    "id": "shape_042",
+    "prompt": "A rectangular mirror is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The mirror has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_142"
+  },
+  {
+    "id": "shape_043",
+    "prompt": "A rectangular tray is shown with its outer outline clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "tray",
+    "subtype": "outline",
+    "scene_family": "scene_01",
+    "expected": "The tray has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_143"
+  },
+  {
+    "id": "shape_044",
+    "prompt": "A rectangular rug is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "rug",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The rug has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_144"
+  },
+  {
+    "id": "shape_045",
+    "prompt": "A rectangular picture frame is shown with its outer outline clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "picture frame",
+    "subtype": "outline",
+    "scene_family": "scene_05",
+    "expected": "The picture frame has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_145"
+  },
+  {
+    "id": "shape_046",
+    "prompt": "A rectangular tabletop is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "tabletop",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The tabletop has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_146"
+  },
+  {
+    "id": "shape_047",
+    "prompt": "A rectangular cushion is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "cushion",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The cushion has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 29,
+    "prompt_id": "prompt_147"
+  },
+  {
+    "id": "shape_048",
+    "prompt": "A rectangular wall clock is shown with its outer outline clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "wall clock",
+    "subtype": "outline",
+    "scene_family": "scene_02",
+    "expected": "The wall clock has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 28,
+    "prompt_id": "prompt_148"
+  },
+  {
+    "id": "shape_049",
+    "prompt": "A rectangular sign is shown with its outer outline clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "sign",
+    "subtype": "outline",
+    "scene_family": "scene_09",
+    "expected": "The sign has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 27,
+    "prompt_id": "prompt_149"
+  },
+  {
+    "id": "shape_050",
+    "prompt": "A rectangular floor mat is shown with its outer outline clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "floor mat",
+    "subtype": "outline",
+    "scene_family": "scene_04",
+    "expected": "The floor mat has a rectangular outer outline.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定几何轮廓；不使用部件形状或同义形状提示。",
+    "word_count": 30,
+    "prompt_id": "prompt_150"
+  }
+]

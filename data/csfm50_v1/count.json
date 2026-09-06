@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "count_001",
+    "prompt": "Two mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "mugs",
+    "subtype": "single_category",
+    "scene_family": "scene_01",
+    "expected": "Exactly two mugs are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_201"
+  },
+  {
+    "id": "count_002",
+    "prompt": "Two bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly two bottles are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_202"
+  },
+  {
+    "id": "count_003",
+    "prompt": "Two books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "books",
+    "subtype": "single_category",
+    "scene_family": "scene_02",
+    "expected": "Exactly two books are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_203"
+  },
+  {
+    "id": "count_004",
+    "prompt": "Two hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "hourglasses",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly two hourglasses are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_204"
+  },
+  {
+    "id": "count_005",
+    "prompt": "Two remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "remote controls",
+    "subtype": "single_category",
+    "scene_family": "scene_04",
+    "expected": "Exactly two remote controls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 29,
+    "prompt_id": "prompt_205"
+  },
+  {
+    "id": "count_006",
+    "prompt": "Two toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "toy cars",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly two toy cars are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_206"
+  },
+  {
+    "id": "count_007",
+    "prompt": "Two hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "hats",
+    "subtype": "single_category",
+    "scene_family": "scene_06",
+    "expected": "Exactly two hats are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_207"
+  },
+  {
+    "id": "count_008",
+    "prompt": "Two bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "bowls",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly two bowls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_208"
+  },
+  {
+    "id": "count_009",
+    "prompt": "Two flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "flowerpots",
+    "subtype": "single_category",
+    "scene_family": "scene_09",
+    "expected": "Exactly two flowerpots are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_209"
+  },
+  {
+    "id": "count_010",
+    "prompt": "Two baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "baskets",
+    "subtype": "single_category",
+    "scene_family": "scene_03",
+    "expected": "Exactly two baskets are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 25,
+    "prompt_id": "prompt_210"
+  },
+  {
+    "id": "count_011",
+    "prompt": "Three mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "mugs",
+    "subtype": "single_category",
+    "scene_family": "scene_01",
+    "expected": "Exactly three mugs are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_211"
+  },
+  {
+    "id": "count_012",
+    "prompt": "Three bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly three bottles are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_212"
+  },
+  {
+    "id": "count_013",
+    "prompt": "Three books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "books",
+    "subtype": "single_category",
+    "scene_family": "scene_02",
+    "expected": "Exactly three books are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_213"
+  },
+  {
+    "id": "count_014",
+    "prompt": "Three hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "hourglasses",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly three hourglasses are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_214"
+  },
+  {
+    "id": "count_015",
+    "prompt": "Three remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "remote controls",
+    "subtype": "single_category",
+    "scene_family": "scene_04",
+    "expected": "Exactly three remote controls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 29,
+    "prompt_id": "prompt_215"
+  },
+  {
+    "id": "count_016",
+    "prompt": "Three toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "toy cars",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly three toy cars are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_216"
+  },
+  {
+    "id": "count_017",
+    "prompt": "Three hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "hats",
+    "subtype": "single_category",
+    "scene_family": "scene_06",
+    "expected": "Exactly three hats are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_217"
+  },
+  {
+    "id": "count_018",
+    "prompt": "Three bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "bowls",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly three bowls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_218"
+  },
+  {
+    "id": "count_019",
+    "prompt": "Three flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "flowerpots",
+    "subtype": "single_category",
+    "scene_family": "scene_09",
+    "expected": "Exactly three flowerpots are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_219"
+  },
+  {
+    "id": "count_020",
+    "prompt": "Three baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "baskets",
+    "subtype": "single_category",
+    "scene_family": "scene_03",
+    "expected": "Exactly three baskets are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 25,
+    "prompt_id": "prompt_220"
+  },
+  {
+    "id": "count_021",
+    "prompt": "Four mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "mugs",
+    "subtype": "single_category",
+    "scene_family": "scene_01",
+    "expected": "Exactly four mugs are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_221"
+  },
+  {
+    "id": "count_022",
+    "prompt": "Four bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly four bottles are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_222"
+  },
+  {
+    "id": "count_023",
+    "prompt": "Four books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "books",
+    "subtype": "single_category",
+    "scene_family": "scene_02",
+    "expected": "Exactly four books are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_223"
+  },
+  {
+    "id": "count_024",
+    "prompt": "Four hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "hourglasses",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly four hourglasses are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_224"
+  },
+  {
+    "id": "count_025",
+    "prompt": "Four remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "remote controls",
+    "subtype": "single_category",
+    "scene_family": "scene_04",
+    "expected": "Exactly four remote controls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 29,
+    "prompt_id": "prompt_225"
+  },
+  {
+    "id": "count_026",
+    "prompt": "Four toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "toy cars",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly four toy cars are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_226"
+  },
+  {
+    "id": "count_027",
+    "prompt": "Four hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "hats",
+    "subtype": "single_category",
+    "scene_family": "scene_06",
+    "expected": "Exactly four hats are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_227"
+  },
+  {
+    "id": "count_028",
+    "prompt": "Four bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "bowls",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly four bowls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_228"
+  },
+  {
+    "id": "count_029",
+    "prompt": "Four flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "flowerpots",
+    "subtype": "single_category",
+    "scene_family": "scene_09",
+    "expected": "Exactly four flowerpots are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_229"
+  },
+  {
+    "id": "count_030",
+    "prompt": "Four baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "baskets",
+    "subtype": "single_category",
+    "scene_family": "scene_03",
+    "expected": "Exactly four baskets are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 25,
+    "prompt_id": "prompt_230"
+  },
+  {
+    "id": "count_031",
+    "prompt": "Five mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "mugs",
+    "subtype": "single_category",
+    "scene_family": "scene_01",
+    "expected": "Exactly five mugs are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_231"
+  },
+  {
+    "id": "count_032",
+    "prompt": "Five bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly five bottles are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_232"
+  },
+  {
+    "id": "count_033",
+    "prompt": "Five books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "books",
+    "subtype": "single_category",
+    "scene_family": "scene_02",
+    "expected": "Exactly five books are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_233"
+  },
+  {
+    "id": "count_034",
+    "prompt": "Five hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "hourglasses",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly five hourglasses are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_234"
+  },
+  {
+    "id": "count_035",
+    "prompt": "Five remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "remote controls",
+    "subtype": "single_category",
+    "scene_family": "scene_04",
+    "expected": "Exactly five remote controls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 29,
+    "prompt_id": "prompt_235"
+  },
+  {
+    "id": "count_036",
+    "prompt": "Five toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "toy cars",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly five toy cars are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_236"
+  },
+  {
+    "id": "count_037",
+    "prompt": "Five hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "hats",
+    "subtype": "single_category",
+    "scene_family": "scene_06",
+    "expected": "Exactly five hats are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_237"
+  },
+  {
+    "id": "count_038",
+    "prompt": "Five bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "bowls",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly five bowls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_238"
+  },
+  {
+    "id": "count_039",
+    "prompt": "Five flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "flowerpots",
+    "subtype": "single_category",
+    "scene_family": "scene_09",
+    "expected": "Exactly five flowerpots are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_239"
+  },
+  {
+    "id": "count_040",
+    "prompt": "Five baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Five",
+    "target_object": "baskets",
+    "subtype": "single_category",
+    "scene_family": "scene_03",
+    "expected": "Exactly five baskets are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 25,
+    "prompt_id": "prompt_240"
+  },
+  {
+    "id": "count_041",
+    "prompt": "Six mugs are arranged separately, with every item fully visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "mugs",
+    "subtype": "single_category",
+    "scene_family": "scene_01",
+    "expected": "Exactly six mugs are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_241"
+  },
+  {
+    "id": "count_042",
+    "prompt": "Six bottles are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly six bottles are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_242"
+  },
+  {
+    "id": "count_043",
+    "prompt": "Six books are arranged separately, with every item fully visible on a library reading table, with a plain wall and a closed storage cabinet visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "books",
+    "subtype": "single_category",
+    "scene_family": "scene_02",
+    "expected": "Exactly six books are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_243"
+  },
+  {
+    "id": "count_044",
+    "prompt": "Six hourglasses are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "hourglasses",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly six hourglasses are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_244"
+  },
+  {
+    "id": "count_045",
+    "prompt": "Six remote controls are arranged separately, with every item fully visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "remote controls",
+    "subtype": "single_category",
+    "scene_family": "scene_04",
+    "expected": "Exactly six remote controls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 29,
+    "prompt_id": "prompt_245"
+  },
+  {
+    "id": "count_046",
+    "prompt": "Six toy cars are arranged separately, with every item fully visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "toy cars",
+    "subtype": "single_category",
+    "scene_family": "scene_05",
+    "expected": "Exactly six toy cars are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 28,
+    "prompt_id": "prompt_246"
+  },
+  {
+    "id": "count_047",
+    "prompt": "Six hats are arranged separately, with every item fully visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "hats",
+    "subtype": "single_category",
+    "scene_family": "scene_06",
+    "expected": "Exactly six hats are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_247"
+  },
+  {
+    "id": "count_048",
+    "prompt": "Six bowls are arranged separately, with every item fully visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "bowls",
+    "subtype": "single_category",
+    "scene_family": "scene_07",
+    "expected": "Exactly six bowls are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 27,
+    "prompt_id": "prompt_248"
+  },
+  {
+    "id": "count_049",
+    "prompt": "Six flowerpots are arranged separately, with every item fully visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "flowerpots",
+    "subtype": "single_category",
+    "scene_family": "scene_09",
+    "expected": "Exactly six flowerpots are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 26,
+    "prompt_id": "prompt_249"
+  },
+  {
+    "id": "count_050",
+    "prompt": "Six baskets are arranged separately, with every item fully visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Six",
+    "target_object": "baskets",
+    "subtype": "single_category",
+    "scene_family": "scene_03",
+    "expected": "Exactly six baskets are present.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "保留场景，人工指定精确数量2–6；名词复数和其余文本保留。",
+    "word_count": 25,
+    "prompt_id": "prompt_250"
+  }
+]

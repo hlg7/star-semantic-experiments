@@ -1,0 +1,1302 @@
+[
+  {
+    "id": "color_001",
+    "prompt": "A red dog is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "dog",
+    "subtype": "color",
+    "scene_family": "scene_00",
+    "expected": "The dog is red.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_051"
+  },
+  {
+    "id": "color_002",
+    "prompt": "A green cat is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "cat",
+    "subtype": "color",
+    "scene_family": "scene_00",
+    "expected": "The cat is green.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_052"
+  },
+  {
+    "id": "color_003",
+    "prompt": "A purple bicycle is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "bicycle",
+    "subtype": "color",
+    "scene_family": "scene_00",
+    "expected": "The bicycle is purple.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_053"
+  },
+  {
+    "id": "color_004",
+    "prompt": "A pink bench is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "pink",
+    "target_object": "bench",
+    "subtype": "color",
+    "scene_family": "scene_00",
+    "expected": "The bench is pink.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_054"
+  },
+  {
+    "id": "color_005",
+    "prompt": "A black wheelbarrow is clearly visible in a grassy garden, with a low stone wall and distant trees visible under soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "black",
+    "target_object": "wheelbarrow",
+    "subtype": "color",
+    "scene_family": "scene_00",
+    "expected": "The wheelbarrow is black.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001434",
+      "path": "n02099429/ILSVRC2012_val_00001434.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_055"
+  },
+  {
+    "id": "color_006",
+    "prompt": "A red mug is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "mug",
+    "subtype": "color",
+    "scene_family": "scene_01",
+    "expected": "The mug is red.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_056"
+  },
+  {
+    "id": "color_007",
+    "prompt": "A green teapot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "teapot",
+    "subtype": "color",
+    "scene_family": "scene_01",
+    "expected": "The teapot is green.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_057"
+  },
+  {
+    "id": "color_008",
+    "prompt": "A purple coffee pot is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "coffee pot",
+    "subtype": "color",
+    "scene_family": "scene_01",
+    "expected": "The coffee pot is purple.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_058"
+  },
+  {
+    "id": "color_009",
+    "prompt": "A pink sugar bowl is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "pink",
+    "target_object": "sugar bowl",
+    "subtype": "color",
+    "scene_family": "scene_01",
+    "expected": "The sugar bowl is pink.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_059"
+  },
+  {
+    "id": "color_010",
+    "prompt": "A black tray is clearly visible on a wooden cafe table, with empty chairs and a softly lit window visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "black",
+    "target_object": "tray",
+    "subtype": "color",
+    "scene_family": "scene_01",
+    "expected": "The tray is black.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002022",
+      "path": "n03063689/ILSVRC2012_val_00002022.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_060"
+  },
+  {
+    "id": "color_011",
+    "prompt": "A red chair is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "chair",
+    "subtype": "color",
+    "scene_family": "scene_02",
+    "expected": "The chair is red.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_061"
+  },
+  {
+    "id": "color_012",
+    "prompt": "A green table is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "table",
+    "subtype": "color",
+    "scene_family": "scene_02",
+    "expected": "The table is green.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_062"
+  },
+  {
+    "id": "color_013",
+    "prompt": "A purple bookcase is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "bookcase",
+    "subtype": "color",
+    "scene_family": "scene_02",
+    "expected": "The bookcase is purple.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_063"
+  },
+  {
+    "id": "color_014",
+    "prompt": "A pink ladder is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "pink",
+    "target_object": "ladder",
+    "subtype": "color",
+    "scene_family": "scene_02",
+    "expected": "The ladder is pink.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_064"
+  },
+  {
+    "id": "color_015",
+    "prompt": "A black reading lamp is clearly visible in a quiet library, with bookshelves along the walls and daylight entering through a large window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "black",
+    "target_object": "reading lamp",
+    "subtype": "color",
+    "scene_family": "scene_02",
+    "expected": "The reading lamp is black.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00000849",
+      "path": "n03661043/ILSVRC2012_val_00000849.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_065"
+  },
+  {
+    "id": "color_016",
+    "prompt": "A red water bottle is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "water bottle",
+    "subtype": "color",
+    "scene_family": "scene_03",
+    "expected": "The water bottle is red.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_066"
+  },
+  {
+    "id": "color_017",
+    "prompt": "A green backpack is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "backpack",
+    "subtype": "color",
+    "scene_family": "scene_03",
+    "expected": "The backpack is green.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 21,
+    "prompt_id": "prompt_067"
+  },
+  {
+    "id": "color_018",
+    "prompt": "A purple umbrella is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "umbrella",
+    "subtype": "color",
+    "scene_family": "scene_03",
+    "expected": "The umbrella is purple.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 21,
+    "prompt_id": "prompt_068"
+  },
+  {
+    "id": "color_019",
+    "prompt": "A pink watering can is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "pink",
+    "target_object": "watering can",
+    "subtype": "color",
+    "scene_family": "scene_03",
+    "expected": "The watering can is pink.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_069"
+  },
+  {
+    "id": "color_020",
+    "prompt": "A black basket is clearly visible beside a garden path, with tall reeds and distant trees beneath a lightly clouded sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "black",
+    "target_object": "basket",
+    "subtype": "color",
+    "scene_family": "scene_03",
+    "expected": "The basket is black.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003429",
+      "path": "n04557648/ILSVRC2012_val_00003429.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 21,
+    "prompt_id": "prompt_070"
+  },
+  {
+    "id": "color_021",
+    "prompt": "A red remote control is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "remote control",
+    "subtype": "color",
+    "scene_family": "scene_04",
+    "expected": "The remote control is red.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 25,
+    "prompt_id": "prompt_071"
+  },
+  {
+    "id": "color_022",
+    "prompt": "A green suitcase is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "suitcase",
+    "subtype": "color",
+    "scene_family": "scene_04",
+    "expected": "The suitcase is green.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_072"
+  },
+  {
+    "id": "color_023",
+    "prompt": "A purple shoe is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "shoe",
+    "subtype": "color",
+    "scene_family": "scene_04",
+    "expected": "The shoe is purple.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_073"
+  },
+  {
+    "id": "color_024",
+    "prompt": "A pink helmet is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "pink",
+    "target_object": "helmet",
+    "subtype": "color",
+    "scene_family": "scene_04",
+    "expected": "The helmet is pink.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_074"
+  },
+  {
+    "id": "color_025",
+    "prompt": "A black toy car is clearly visible on a tiled floor, with a plain wall behind the scene and soft light entering from a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "black",
+    "target_object": "toy car",
+    "subtype": "color",
+    "scene_family": "scene_04",
+    "expected": "The toy car is black.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002910",
+      "path": "n04074963/ILSVRC2012_val_00002910.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 25,
+    "prompt_id": "prompt_075"
+  },
+  {
+    "id": "color_026",
+    "prompt": "A blue hourglass is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "hourglass",
+    "subtype": "color",
+    "scene_family": "scene_05",
+    "expected": "The hourglass is blue.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_076"
+  },
+  {
+    "id": "color_027",
+    "prompt": "A yellow notebook is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "notebook",
+    "subtype": "color",
+    "scene_family": "scene_05",
+    "expected": "The notebook is yellow.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_077"
+  },
+  {
+    "id": "color_028",
+    "prompt": "An orange stapler is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        3,
+        9
+      ]
+    ],
+    "target_text": "orange",
+    "target_object": "stapler",
+    "subtype": "color",
+    "scene_family": "scene_05",
+    "expected": "The stapler is orange.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_078"
+  },
+  {
+    "id": "color_029",
+    "prompt": "A white pencil case is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "white",
+    "target_object": "pencil case",
+    "subtype": "color",
+    "scene_family": "scene_05",
+    "expected": "The pencil case is white.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_079"
+  },
+  {
+    "id": "color_030",
+    "prompt": "A brown calculator is clearly visible on an office desk, with a dark computer monitor and a plain wall visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "brown",
+    "target_object": "calculator",
+    "subtype": "color",
+    "scene_family": "scene_05",
+    "expected": "The calculator is brown.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00003951",
+      "path": "n03544143/ILSVRC2012_val_00003951.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_080"
+  },
+  {
+    "id": "color_031",
+    "prompt": "A blue scarf is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "scarf",
+    "subtype": "color",
+    "scene_family": "scene_06",
+    "expected": "The scarf is blue.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_081"
+  },
+  {
+    "id": "color_032",
+    "prompt": "A yellow hat is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "hat",
+    "subtype": "color",
+    "scene_family": "scene_06",
+    "expected": "The hat is yellow.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_082"
+  },
+  {
+    "id": "color_033",
+    "prompt": "An orange shirt is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        3,
+        9
+      ]
+    ],
+    "target_text": "orange",
+    "target_object": "shirt",
+    "subtype": "color",
+    "scene_family": "scene_06",
+    "expected": "The shirt is orange.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_083"
+  },
+  {
+    "id": "color_034",
+    "prompt": "A white glove is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "white",
+    "target_object": "glove",
+    "subtype": "color",
+    "scene_family": "scene_06",
+    "expected": "The glove is white.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_084"
+  },
+  {
+    "id": "color_035",
+    "prompt": "A brown handbag is clearly visible on a wooden worktable, with a folded cloth nearby and soft daylight coming through a window.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "brown",
+    "target_object": "handbag",
+    "subtype": "color",
+    "scene_family": "scene_06",
+    "expected": "The handbag is brown.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00007953",
+      "path": "n04254777/ILSVRC2012_val_00007953.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_085"
+  },
+  {
+    "id": "color_036",
+    "prompt": "A blue plate is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "plate",
+    "subtype": "color",
+    "scene_family": "scene_07",
+    "expected": "The plate is blue.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_086"
+  },
+  {
+    "id": "color_037",
+    "prompt": "A yellow bowl is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "bowl",
+    "subtype": "color",
+    "scene_family": "scene_07",
+    "expected": "The bowl is yellow.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_087"
+  },
+  {
+    "id": "color_038",
+    "prompt": "An orange glass jar is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        3,
+        9
+      ]
+    ],
+    "target_text": "orange",
+    "target_object": "glass jar",
+    "subtype": "color",
+    "scene_family": "scene_07",
+    "expected": "The glass jar is orange.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_088"
+  },
+  {
+    "id": "color_039",
+    "prompt": "A white kettle is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "white",
+    "target_object": "kettle",
+    "subtype": "color",
+    "scene_family": "scene_07",
+    "expected": "The kettle is white.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_089"
+  },
+  {
+    "id": "color_040",
+    "prompt": "A brown bread loaf is clearly visible on a kitchen counter, with a plain tiled wall and a closed cabinet visible in the background.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "brown",
+    "target_object": "bread loaf",
+    "subtype": "color",
+    "scene_family": "scene_07",
+    "expected": "The bread loaf is brown.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00001483",
+      "path": "n07836838/ILSVRC2012_val_00001483.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 24,
+    "prompt_id": "prompt_090"
+  },
+  {
+    "id": "color_041",
+    "prompt": "A blue car is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "car",
+    "subtype": "color",
+    "scene_family": "scene_08",
+    "expected": "The car is blue.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002595",
+      "path": "n03393912/ILSVRC2012_val_00002595.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_091"
+  },
+  {
+    "id": "color_042",
+    "prompt": "A yellow truck is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "truck",
+    "subtype": "color",
+    "scene_family": "scene_08",
+    "expected": "The truck is yellow.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002595",
+      "path": "n03393912/ILSVRC2012_val_00002595.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_092"
+  },
+  {
+    "id": "color_043",
+    "prompt": "An orange motorcycle is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        3,
+        9
+      ]
+    ],
+    "target_text": "orange",
+    "target_object": "motorcycle",
+    "subtype": "color",
+    "scene_family": "scene_08",
+    "expected": "The motorcycle is orange.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002595",
+      "path": "n03393912/ILSVRC2012_val_00002595.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_093"
+  },
+  {
+    "id": "color_044",
+    "prompt": "A white road sign is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "white",
+    "target_object": "road sign",
+    "subtype": "color",
+    "scene_family": "scene_08",
+    "expected": "The road sign is white.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002595",
+      "path": "n03393912/ILSVRC2012_val_00002595.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 23,
+    "prompt_id": "prompt_094"
+  },
+  {
+    "id": "color_045",
+    "prompt": "A brown barrel is clearly visible beside a desert road, with dry shrubs nearby and distant mountains under a pale cloudy sky.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "brown",
+    "target_object": "barrel",
+    "subtype": "color",
+    "scene_family": "scene_08",
+    "expected": "The barrel is brown.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002595",
+      "path": "n03393912/ILSVRC2012_val_00002595.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_095"
+  },
+  {
+    "id": "color_046",
+    "prompt": "A blue vase is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "vase",
+    "subtype": "color",
+    "scene_family": "scene_09",
+    "expected": "The vase is blue.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_096"
+  },
+  {
+    "id": "color_047",
+    "prompt": "A yellow flowerpot is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "flowerpot",
+    "subtype": "color",
+    "scene_family": "scene_09",
+    "expected": "The flowerpot is yellow.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_097"
+  },
+  {
+    "id": "color_048",
+    "prompt": "An orange statue is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        3,
+        9
+      ]
+    ],
+    "target_text": "orange",
+    "target_object": "statue",
+    "subtype": "color",
+    "scene_family": "scene_09",
+    "expected": "The statue is orange.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_098"
+  },
+  {
+    "id": "color_049",
+    "prompt": "A white fountain is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "white",
+    "target_object": "fountain",
+    "subtype": "color",
+    "scene_family": "scene_09",
+    "expected": "The fountain is white.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_099"
+  },
+  {
+    "id": "color_050",
+    "prompt": "A brown stool is clearly visible in a quiet courtyard, with a stone wall and a narrow path visible in soft daylight.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "brown",
+    "target_object": "stool",
+    "subtype": "color",
+    "scene_family": "scene_09",
+    "expected": "The stool is brown.",
+    "baseline_status": "not_evaluated",
+    "source": {
+      "dataset": "junwann/CSFM-ImageNet1K-Caption",
+      "split": "validation",
+      "id": "ILSVRC2012_val_00002136",
+      "path": "n04355338/ILSVRC2012_val_00002136.JPEG"
+    },
+    "adaptation_notes": "基于场景人工指定主体及颜色。",
+    "word_count": 22,
+    "prompt_id": "prompt_100"
+  }
+]

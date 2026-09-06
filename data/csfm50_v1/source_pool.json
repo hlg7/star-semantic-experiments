@@ -1,0 +1,477 @@
+[
+  {
+    "path": "n01443537/ILSVRC2012_val_00000236.JPEG",
+    "id": "ILSVRC2012_val_00000236",
+    "recaption_short": "A white and orange koi fish with flowing, translucent fins swims upward through dark, murky water, illuminated by a warm, golden backlight that highlights its body and creates a glowing outline against a blurred, shadowy background."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00000262.JPEG",
+    "id": "ILSVRC2012_val_00000262",
+    "recaption_short": "Goldfish swimming in a green-tinted aquarium with gravel substrate, artificial plants, and decorative rocks; one goldfish near center with orange body and white fins, another smaller fish near top right with red and white markings; bubbles rising from bottom left; dim lighting with dark background."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00000307.JPEG",
+    "id": "ILSVRC2012_val_00000307",
+    "recaption_short": "Goldfish with vibrant orange and yellow scales swim in an aquarium, surrounded by green artificial plants and colorful gravel substrate, with translucent fins and detailed scale patterns visible under soft, diffused lighting."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00000994.JPEG",
+    "id": "ILSVRC2012_val_00000994",
+    "recaption_short": "A vibrant orange fish with flowing fins and a large, round eye, swimming in an aquarium with blurred green plants and colorful background decor."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00002241.JPEG",
+    "id": "ILSVRC2012_val_00002241",
+    "recaption_short": "A translucent orange fish with elongated fins swims in a glass container filled with plastic straws and Halloween-themed cups featuring bats and spiders, under warm, amber lighting."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00002848.JPEG",
+    "id": "ILSVRC2012_val_00002848",
+    "recaption_short": "A goldfish with a white body and orange head and fins, swimming in dark water with bubbles visible near its head."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00003150.JPEG",
+    "id": "ILSVRC2012_val_00003150",
+    "recaption_short": "A bright yellow cichlid fish with a pattern of small white spots across its body, translucent fins with hints of blue and orange, and a large black eye, swimming in an aquarium with blurred greenish background and dark rock formations."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00003735.JPEG",
+    "id": "ILSVRC2012_val_00003735",
+    "recaption_short": "Several goldfish swimming in a shallow aquarium, featuring vibrant orange and red hues with flowing fins; one has a distinctively rounded head, others display varied tail shapes and body tones, all suspended in clear water with visible particulate matter and a faint reflection of greenery above the waterline."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00004655.JPEG",
+    "id": "ILSVRC2012_val_00004655",
+    "recaption_short": "A vibrant orange fish with a glowing belly swims underwater, surrounded by greenish-blue water with visible ripples and light refractions."
+  },
+  {
+    "path": "n01443537/ILSVRC2012_val_00004677.JPEG",
+    "id": "ILSVRC2012_val_00004677",
+    "recaption_short": "Red koi fish swim in dark water beneath long green reeds and a lily pad, with reflections of surrounding foliage and a faintly visible person in the background."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00001434.JPEG",
+    "id": "ILSVRC2012_val_00001434",
+    "recaption_short": "A chocolate brown curly-coated dog with a weathered leather collar, standing in profile on a vibrant green grassy field, with a backdrop of bare trees and stone walls under soft daylight."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00003061.JPEG",
+    "id": "ILSVRC2012_val_00003061",
+    "recaption_short": "A black curly-haired dog holding a pink bone-shaped chew toy in its mouth, sitting on a bed with a white blanket, in front of a light gray wall with a gold-framed mirror above and a wooden cabinet to the left."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00005699.JPEG",
+    "id": "ILSVRC2012_val_00005699",
+    "recaption_short": "Black dog with wet fur standing on muddy dirt path, tongue out, tail raised, wearing purple collar with silver tag, red plastic object partially submerged in puddle nearby."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00005767.JPEG",
+    "id": "ILSVRC2012_val_00005767",
+    "recaption_short": "A black dog with wavy, slightly damp fur, wearing a pink collar with a bone-shaped tag, standing in profile and looking toward the right, against a blurred background of grassy terrain and a dirt path."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00005816.JPEG",
+    "id": "ILSVRC2012_val_00005816",
+    "recaption_short": "Black curly-haired dog wearing pink collar standing in tall golden grass under blue sky with white clouds, distant hills visible, photographer's signature \"Krysan B\" in bottom right corner."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00006836.JPEG",
+    "id": "ILSVRC2012_val_00006836",
+    "recaption_short": "A brown curly-coated dog with a thick, wavy fur texture, wearing a black collar, sitting upright on grass, looking to the right, with a person in blue jeans and brown shoes partially visible behind it."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00008966.JPEG",
+    "id": "ILSVRC2012_val_00008966",
+    "recaption_short": "A black curly-coated dog standing on grass and dirt, wearing a pink collar, looking upward with its head tilted."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00010107.JPEG",
+    "id": "ILSVRC2012_val_00010107",
+    "recaption_short": "A black, wet, curly-coated dog standing on a dirt path in a grassy field, looking upward with its mouth open and tongue out, wearing a collar with a tag, with a red hanging object visible in the background among dry grass and trees."
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00010328.JPEG",
+    "id": "ILSVRC2012_val_00010328",
+    "recaption_short": "A black curly-coated dog with dark eyes and a silver chain collar, sitting calmly on a purple carpet, held by a man in a beige suit with a patterned tie, wearing a green and white \"Crufts 17341\" badge, in front of a backdrop featuring \"Eukanuba,\" \"www.crufts.org.uk,\" and \"THE KENNEL CLUB Making a difference for dogs.\""
+  },
+  {
+    "path": "n02099429/ILSVRC2012_val_00011061.JPEG",
+    "id": "ILSVRC2012_val_00011061",
+    "recaption_short": "A wet, curly-coated brown dog standing on a wooden bridge, tongue out, surrounded by lush green foliage and trees."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00000050.JPEG",
+    "id": "ILSVRC2012_val_00000050",
+    "recaption_short": "Several whole fish arranged on a white cutting board, including long, slender fish with dark grayish-brown skin and a larger sturgeon with textured, mottled brown and green scales; price tags visible reading \"Sturgeon $9.50 / lb\" and \"Sardines $2.10 / lb\"."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00001436.JPEG",
+    "id": "ILSVRC2012_val_00001436",
+    "recaption_short": "A large sturgeon fish swims gracefully over a sandy seabed, its elongated body and prominent barbels clearly visible; in the hazy background, a diver is partially submerged near scattered rocks and marine vegetation; the image is rendered in monochrome with a watermark reading \"\u00a9 MARKNTHOMAS2010\" in the lower-left corner."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00001669.JPEG",
+    "id": "ILSVRC2012_val_00001669",
+    "recaption_short": "A river sturgeon with a long, slender body and a broad, flat head lies partially submerged in shallow, muddy water, illuminated by a focused beam of light that casts a circular glow on the sandy bottom, surrounded by scattered dark vegetation and debris."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00002137.JPEG",
+    "id": "ILSVRC2012_val_00002137",
+    "recaption_short": "A sleek, dark gray fish with a streamlined body and pointed snout swims gracefully beneath a large, weathered log, its fins slightly spread as it navigates through clear water surrounded by textured, mossy rocks."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00002525.JPEG",
+    "id": "ILSVRC2012_val_00002525",
+    "recaption_short": "A man wearing a black baseball cap with a patch, dark sunglasses, a yellow and red waterproof jacket with reflective stripes, and a black inner collar, holds a large, pale, elongated fish with a long snout and barbels, standing on a boat on a calm, overcast water surface with a distant treeline under gray skies."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00003085.JPEG",
+    "id": "ILSVRC2012_val_00003085",
+    "recaption_short": "A woman wearing a black beanie, pink jacket, blue waterproof overalls, and blue gloves holds a large silver sturgeon fish with a long, slender body and prominent barbels, standing in a small boat on a wide river under a partly cloudy sky, with distant trees and another boat visible on the horizon."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00003495.JPEG",
+    "id": "ILSVRC2012_val_00003495",
+    "recaption_short": "A man in a blue blazer and black polo shirt holding a large sturgeon fish with a long snout, standing by a brick-lined pond with a white building and manicured trees in the background."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00004574.JPEG",
+    "id": "ILSVRC2012_val_00004574",
+    "recaption_short": "A man wearing a brown cap, sunglasses, and a black t-shirt with red straps holds a large sturgeon fish in shallow water, its silver-gray scales and elongated body visible. Behind him, a white fishing boat named \"Thundercat\" with an outboard motor is anchored near a rocky shoreline covered in dense green pine trees. Another person in a white cap stands on the boat holding a fishing rod. The scene is set under an overcast sky with misty mountains in the background."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00004784.JPEG",
+    "id": "ILSVRC2012_val_00004784",
+    "recaption_short": "A large sturgeon fish with a grayish-brown, armored body and prominent barbels near its mouth, swimming near the sandy bottom in murky green water, with another fish visible in the background."
+  },
+  {
+    "path": "n02640242/ILSVRC2012_val_00005529.JPEG",
+    "id": "ILSVRC2012_val_00005529",
+    "recaption_short": "A large sturgeon fish with a long, slender body, grayish-brown scales, and a row of bony plates along its back, lying in a blue waterproof container filled with water, viewed from above, with a person's black shoe and jeans visible at the bottom edge of the frame."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00001943.JPEG",
+    "id": "ILSVRC2012_val_00001943",
+    "recaption_short": "Two clear acrylic magazine holders on a dark wooden shelf, each filled with vertically stacked magazines and books, flanking a central glass hourglass with dark sand, partially filled, resting on the shelf; visible text on one magazine cover reads \"Metropolitan Home\"."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00003951.JPEG",
+    "id": "ILSVRC2012_val_00003951",
+    "recaption_short": "A wooden hourglass with dark brown finish and ornate turned legs, mounted on a circular base, sits on a white desk next to a white disposable coffee cup with a cartoon face and a white lid. Behind them, a computer monitor with a bright white screen is partially visible, and a poster featuring a stylized armored figure with glowing green light in the background is affixed to the wall. A yellow sticky note is attached to the right edge of the frame."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00003986.JPEG",
+    "id": "ILSVRC2012_val_00003986",
+    "recaption_short": "Three hourglasses arranged in a row, each with glass bulbs connected by a narrow neck, containing sand that has partially flowed from the upper to the lower bulb, set against a dark background with warm sepia-toned lighting, and a signature in the bottom right corner reading \"Patricia '09\"."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00004082.JPEG",
+    "id": "ILSVRC2012_val_00004082",
+    "recaption_short": "A gray hourglass with a pink sand base, surrounded by scattered pink and black paper clips on a white surface."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00004729.JPEG",
+    "id": "ILSVRC2012_val_00004729",
+    "recaption_short": "A wooden hourglass with a clock face displaying Roman numerals, set against a fiery red-orange sky with dark clouds and birds flying in the distance. The sand inside the hourglass is glowing with an inner flame, casting a warm light. The hourglass rests on a circular, cracked earth surface, with the lower bulb reflecting the fiery sky."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00006119.JPEG",
+    "id": "ILSVRC2012_val_00006119",
+    "recaption_short": "A glass hourglass with dark blue sand, featuring two transparent bulbous chambers connected by a narrow neck, positioned against a plain white background."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00006241.JPEG",
+    "id": "ILSVRC2012_val_00006241",
+    "recaption_short": "A blue sand hourglass with a clear glass body, featuring two spherical bulbs connected by a narrow neck, with blue sand flowing from the upper bulb to the lower bulb against a plain light gray background."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00007213.JPEG",
+    "id": "ILSVRC2012_val_00007213",
+    "recaption_short": "A glass hourglass with white sand, enclosed in a chrome metal frame, resting on a wooden surface against an orange wall."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00007277.JPEG",
+    "id": "ILSVRC2012_val_00007277",
+    "recaption_short": "A wooden hourglass with a polished brown finish, featuring a round top and base connected by four turned spindles, containing clear glass bulbs with light-colored sand flowing between them, set against a plain gradient background."
+  },
+  {
+    "path": "n03544143/ILSVRC2012_val_00007716.JPEG",
+    "id": "ILSVRC2012_val_00007716",
+    "recaption_short": "A wooden hourglass with a dark brown finish, featuring a clear glass bulb containing sand partially settled at the bottom, encased in a cylindrical wooden frame with vertical support posts and circular top and bottom bases."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00000936.JPEG",
+    "id": "ILSVRC2012_val_00000936",
+    "recaption_short": "A pair of feet wearing vibrant, multicolored striped socks with pink, green, orange, purple, and white bands, standing on a wooden step stool with a light brown finish, positioned on a hardwood floor with visible wood grain and warm ambient lighting."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00002806.JPEG",
+    "id": "ILSVRC2012_val_00002806",
+    "recaption_short": "A person wearing white knee-high socks with red stripes and the text \"YouTube\" printed in red and white, standing in a carpeted hallway with plaid shorts, hands clasped near the waist, walls painted off-white with baseboards, and a wooden staircase railing visible in the background."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00007953.JPEG",
+    "id": "ILSVRC2012_val_00007953",
+    "recaption_short": "A pair of hand-knitted socks with vibrant horizontal stripes in blue, pink, orange, and teal, resting on a dark wooden surface with visible grain and a light-colored wooden board partially underneath."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00010318.JPEG",
+    "id": "ILSVRC2012_val_00010318",
+    "recaption_short": "A pair of hand-knitted socks with a variegated pattern of red, orange, and maroon hues, featuring a ribbed cuff and textured knit, laid flat on a smooth teal background."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00011662.JPEG",
+    "id": "ILSVRC2012_val_00011662",
+    "recaption_short": "A pair of white socks with red cherry and green leaf patterns, featuring red toes and heels, worn by feet resting on a beige carpet."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00012532.JPEG",
+    "id": "ILSVRC2012_val_00012532",
+    "recaption_short": "A pair of gray knit socks with intricate leaf-like patterns, worn with rolled-up blue jeans, resting on a colorful striped blanket featuring red, green, yellow, and brown horizontal bands."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00012684.JPEG",
+    "id": "ILSVRC2012_val_00012684",
+    "recaption_short": "A pair of colorful knitted socks with a black base, vibrant green geometric patterns, and orange-yellow accents on the cuffs and toes, worn on feet standing on a light gray textured surface."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00013213.JPEG",
+    "id": "ILSVRC2012_val_00013213",
+    "recaption_short": "A pair of plaid boxer shorts with a visible brand tag reading \"obje\" worn by a person standing on a floor, legs covered in dark socks, against a plain wall background, in sepia tone."
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00013273.JPEG",
+    "id": "ILSVRC2012_val_00013273",
+    "recaption_short": "Five shirtless men with mustaches, each wearing colorful patterned socks, posed on transparent acrylic blocks against a dark background. Text at the bottom reads: \"Announcing the best-dressed men in America. You're looking at a revolution. The most influential men in America are breaking out of their socks\u2014out of their old, blah, boring, one-color, no-style socks. At INTERWOVEN ESQUIRE SOCKS. In lots of great colors and lengths. All in the first.\""
+  },
+  {
+    "path": "n04254777/ILSVRC2012_val_00013608.JPEG",
+    "id": "ILSVRC2012_val_00013608",
+    "recaption_short": "A young woman with reddish-brown hair, wearing a red short-sleeved dress with a gathered neckline, red and black striped thigh-high stockings, and a gold bracelet on her right wrist, is seated on a carpeted floor, leaning forward with her right arm resting on her knee and her left arm bent behind her head, gazing directly at the camera under warm, directional lighting that casts shadows across her face and body."
+  },
+  {
+    "path": "n02815834/ILSVRC2012_val_00000253.JPEG",
+    "id": "ILSVRC2012_val_00000253",
+    "recaption_short": "A glass beaker labeled \"USED\" containing dark red liquid, placed on a white paper towel atop a beige mat, with a graduated scale marked in milliliters from 100 to 500, positioned in front of an orange plastic colander with a blue rim, all situated on a black lab bench with a glass stirring rod resting nearby and a brown hose coiled in the background."
+  },
+  {
+    "path": "n02815834/ILSVRC2012_val_00001251.JPEG",
+    "id": "ILSVRC2012_val_00001251",
+    "recaption_short": "Five graduated Erlenmeyer flasks arranged in a row on a lab bench, each with measurement markings and partially filled with liquid, captured in black and white with shallow depth of field, background showing laboratory equipment and tiled ceiling."
+  },
+  {
+    "path": "n02815834/ILSVRC2012_val_00001780.JPEG",
+    "id": "ILSVRC2012_val_00001780",
+    "recaption_short": "A white liquid being stirred in a 600ml glass beaker with a wooden stir rod, flanked by two black graduated cylinders labeled \"1000 ml\" and \"200 ml\" with measurement markings, set against a dark background."
+  },
+  {
+    "path": "n02815834/ILSVRC2012_val_00001912.JPEG",
+    "id": "ILSVRC2012_val_00001912",
+    "recaption_short": "Two clear glass measuring cups, one in foreground with embossed text \"WESTERN MAN KODAK\" and \"ROCHESTER, N.Y.\", the other slightly blurred in background, both resting on a light-colored wooden surface with soft, even lighting."
+  },
+  {
+    "path": "n02815834/ILSVRC2012_val_00002035.JPEG",
+    "id": "ILSVRC2012_val_00002035",
+    "recaption_short": "A clear glass Erlenmeyer flask with a narrow neck and conical body, showing residue stains and a faded label, sits beside a set of white plastic measuring spoons with colored markings and text, all resting on a stained, textured fabric surface."
+  },
+  {
+    "path": "n03063689/ILSVRC2012_val_00001940.JPEG",
+    "id": "ILSVRC2012_val_00001940",
+    "recaption_short": "A vintage aluminum Moka pot with a hexagonal body, black knob on top, and curved handle, sitting on a glass-ceramic stovetop. The pot shows signs of use with surface wear and water spots. In the background, another Moka pot and a faucet are visible on a kitchen counter, all captured in black and white with soft, diffused lighting."
+  },
+  {
+    "path": "n03063689/ILSVRC2012_val_00002022.JPEG",
+    "id": "ILSVRC2012_val_00002022",
+    "recaption_short": "A white ceramic mug with a spoon inside, placed beside a reflective silver French press coffee pot with a floral pattern at its base, both resting on a glossy pink tabletop. In the background, a dimly lit caf\u00e9 interior with warm ambient lighting, blurred patrons, and a poster with the text \"AMBASSADORS\" visible on the wall."
+  },
+  {
+    "path": "n03063689/ILSVRC2012_val_00002078.JPEG",
+    "id": "ILSVRC2012_val_00002078",
+    "recaption_short": "Three vintage aluminum Moka pots arranged in a row, featuring hexagonal bodies, domed lids with black handles, and spouts, captured in black and white with shallow depth of field, highlighting metallic textures and reflections against a softly blurred background."
+  },
+  {
+    "path": "n03063689/ILSVRC2012_val_00007862.JPEG",
+    "id": "ILSVRC2012_val_00007862",
+    "recaption_short": "A blue toy Volkswagen Beetle with chrome wheels sits beside two metal espresso makers on a stone ledge; one has a black-and-white cow print pattern, the other is polished stainless steel, both with black handles and domed knobs, under warm ambient lighting with a blurred background."
+  },
+  {
+    "path": "n03063689/ILSVRC2012_val_00008304.JPEG",
+    "id": "ILSVRC2012_val_00008304",
+    "recaption_short": "A glossy magenta ceramic teapot with a curved spout and ornate silver ribbon wrapping, placed on a wooden table beside two gift-wrapped bottles\u2014one with a green ribbon and label reading \"BARON DE B\" and another with a black tag adorned with colorful mosaic tiles\u2014and a red ribbon, under the warm glow of a lamp with a textured red shade, with a stone fireplace and dark furniture in the background."
+  },
+  {
+    "path": "n03393912/ILSVRC2012_val_00000047.JPEG",
+    "id": "ILSVRC2012_val_00000047",
+    "recaption_short": "A red freight train car with graffiti featuring three stylized green pine trees with brown trunks, mounted on a metal surface with visible bolts and seams; text on the side reads \"MPTY LOAD\" and \"D.J. BLOCK\"; additional white graffiti is visible on the lower left and right sides; the car rests on a gravel bed with a visible wheel and rail."
+  },
+  {
+    "path": "n03393912/ILSVRC2012_val_00001451.JPEG",
+    "id": "ILSVRC2012_val_00001451",
+    "recaption_short": "A freight train car with corrugated metal siding and yellow vertical beams, featuring the text \"BUILDING AMERICA\u2122\" in bold black letters across the upper section, overlaid with large green and blue graffiti art reading \"TROJAN\" in stylized lettering, with smaller tags including \"ONE,\" \"SKIZA,\" and \"DING BLOW\" visible, and the identification \"TTGX 2668\" printed in black at the bottom left."
+  },
+  {
+    "path": "n03393912/ILSVRC2012_val_00002009.JPEG",
+    "id": "ILSVRC2012_val_00002009",
+    "recaption_short": "Green freight train car with graffiti featuring two cartoonish figures with spiky hair and a large blue tag reading \"ZIGOR\" across the side, resting on railway tracks with gravel ballast beneath."
+  },
+  {
+    "path": "n03393912/ILSVRC2012_val_00002256.JPEG",
+    "id": "ILSVRC2012_val_00002256",
+    "recaption_short": "A brown freight train car with visible text \"KL 305\", \"SECURE BOTH HASPS BEFORE MOVING CAR\", and \"PLATE C\", covered in large green and black graffiti with pink accents, parked on railway tracks surrounded by dry grass and weeds."
+  },
+  {
+    "path": "n03393912/ILSVRC2012_val_00002595.JPEG",
+    "id": "ILSVRC2012_val_00002595",
+    "recaption_short": "A rusty brown freight car sits abandoned on a dirt railway track in a vast desert landscape, with sparse dry brush and distant mountains under a bright blue sky with scattered white clouds."
+  },
+  {
+    "path": "n03661043/ILSVRC2012_val_00000715.JPEG",
+    "id": "ILSVRC2012_val_00000715",
+    "recaption_short": "Two framed portraits of men in red cardinal attire hang above a row of bookshelves filled with aged, leather-bound books. The portraits are set against an ornate, cream-colored ceiling with decorative moldings and sculpted elements. The bookshelves are made of light-colored wood with white-painted dividers, and the books show varied spine designs and colors, including gold, brown, and faded red."
+  },
+  {
+    "path": "n03661043/ILSVRC2012_val_00000849.JPEG",
+    "id": "ILSVRC2012_val_00000849",
+    "recaption_short": "Rows of tall, light-colored bookshelves filled with books line the walls of a quiet library, featuring large windows with wooden frames letting in natural light, several white rectangular tables with matching chairs arranged in clusters, and overhead fluorescent lighting fixtures illuminating the beige carpeted floor."
+  },
+  {
+    "path": "n03661043/ILSVRC2012_val_00002813.JPEG",
+    "id": "ILSVRC2012_val_00002813",
+    "recaption_short": "Rows of wooden tables with light gray tops and light brown chairs arranged in a library reading area, flanked by tall bookshelves filled with books in various colors, including red, green, and black spines, under bright overhead lighting, with a wooden service desk in the background where two people are seated, one at a computer and another at a desk, and white tiled flooring extending throughout the space."
+  },
+  {
+    "path": "n03661043/ILSVRC2012_val_00003051.JPEG",
+    "id": "ILSVRC2012_val_00003051",
+    "recaption_short": "Wooden bookshelves filled with books arranged in rows, a large Italian flag hanging vertically on a wall, tiled floor, recessed ceiling lights, a glass door at the far end, and a small children's reading area with colorful cushions on the left."
+  },
+  {
+    "path": "n03661043/ILSVRC2012_val_00003110.JPEG",
+    "id": "ILSVRC2012_val_00003110",
+    "recaption_short": "White bookshelves filled with books and DVDs, arranged in a long row in a modern library or media room, with glass display cases on the left featuring visible text \"To mans\" and \"e\" and \"s\", dark carpeted floor, large windows with blinds on the right, and a single chair near the window."
+  },
+  {
+    "path": "n03871628/ILSVRC2012_val_00002069.JPEG",
+    "id": "ILSVRC2012_val_00002069",
+    "recaption_short": "Four vintage cigarette packs arranged in a grid: top-left is white with red text \"SENIOR SERVICE FILTER VIRGINIA\" and a red circular emblem with a ship; top-right is black with gold text \"INTERNATIONAL\" \"FRIBOURG & TREYER NUMBER ONE FILTER DE LUXE\" and a gold crest; bottom-left is beige textured with maroon text \"Cigarlettes\" \"J. L. L. CUNNILL\" \"MADE ENTIRELY OF CIGAR TOBACCO\" and a gold crest; bottom-right is white and blue with gold text \"SENIOR SERVICE"
+  },
+  {
+    "path": "n03871628/ILSVRC2012_val_00002169.JPEG",
+    "id": "ILSVRC2012_val_00002169",
+    "recaption_short": "Several chocolate chip cookies in clear plastic bags with yellow floral patterns, resting on a red, white, and blue plaid fabric."
+  },
+  {
+    "path": "n03871628/ILSVRC2012_val_00003796.JPEG",
+    "id": "ILSVRC2012_val_00003796",
+    "recaption_short": "Brown paper envelope with black and teal button pattern on left side, resting on light blue surface. Beside it, a white ink pad labeled \"IMPRESSIONS RAISED DIE INKPAD in Black\" and a small cylindrical stamp with purple ink pad. Behind, a clear glass jar and a brown paper bag partially visible against a pale yellow wall."
+  },
+  {
+    "path": "n03871628/ILSVRC2012_val_00004509.JPEG",
+    "id": "ILSVRC2012_val_00004509",
+    "recaption_short": "A circular badge with a green and white striped background, featuring a black-and-white illustration of a bird perched on a branch, holding a speech bubble, enclosed in clear plastic packaging with a brown paper tag reading \"mirror\" in green cursive script, resting on a black fabric item alongside a paintbrush with a green handle."
+  },
+  {
+    "path": "n03871628/ILSVRC2012_val_00005248.JPEG",
+    "id": "ILSVRC2012_val_00005248",
+    "recaption_short": "A cartoon beaver wearing yellow overalls and holding a small tool, standing beside green bamboo stalks, on a white sugar packet with text reading \"A\u00e7\u00facar Azucar Sugar Sucre Zucker\" and \"Castor\" in yellow font, with a crest above stating \"35 anos agora e sempre....\""
+  },
+  {
+    "path": "n04074963/ILSVRC2012_val_00000275.JPEG",
+    "id": "ILSVRC2012_val_00000275",
+    "recaption_short": "A person wearing a green and white striped sweater bent over, holding two remote controls, one gray and one silver, in a living room with wooden floors, a beige couch, a dark blue couch with a green pillow, and a small wooden side table."
+  },
+  {
+    "path": "n04074963/ILSVRC2012_val_00001838.JPEG",
+    "id": "ILSVRC2012_val_00001838",
+    "recaption_short": "A close-up of a silver Dish Network remote control with black buttons, featuring visible text labels including \"PLAY,\" \"FWD,\" \"POSITION,\" \"REC,\" \"PR,\" \"del,\" and \"abc,\" with a central button displaying the \"dish\" logo, under warm ambient lighting with shallow depth of field."
+  },
+  {
+    "path": "n04074963/ILSVRC2012_val_00002371.JPEG",
+    "id": "ILSVRC2012_val_00002371",
+    "recaption_short": "A collection of five remote controls arranged on a wooden surface, including a gray universal remote, a black remote with blue buttons, a black Samsung remote, a black remote with red accents, and a black remote with a translucent blue penguin-shaped holder on top; visible text includes \"SAMSUNG\" on one remote and \"ON/OFF\" and \"MUTE\" labels on others."
+  },
+  {
+    "path": "n04074963/ILSVRC2012_val_00002910.JPEG",
+    "id": "ILSVRC2012_val_00002910",
+    "recaption_short": "Four black remote controls arranged in a diamond pattern on a light beige tiled floor with dark grout lines; one central oval-shaped remote with a glossy finish and the brand name \"SAMSUNG\" visible, flanked by three rectangular remotes with various button layouts and some showing \"SAMSUNG\" branding; all remotes are positioned diagonally pointing inward toward the center."
+  },
+  {
+    "path": "n04074963/ILSVRC2012_val_00003211.JPEG",
+    "id": "ILSVRC2012_val_00003211",
+    "recaption_short": "Six remote controls and two Xbox 360 controllers arranged on a wooden surface, including white Nintendo Wii remotes, a silver DirecTV remote, a black universal remote, a black Onkyo DVD remote, and two gray Xbox 360 controllers with colored action buttons."
+  },
+  {
+    "path": "n04355338/ILSVRC2012_val_00002015.JPEG",
+    "id": "ILSVRC2012_val_00002015",
+    "recaption_short": "Concrete skate bowl with engraved depth markings \"13\", \"14\", \"15\", \"16\", \"17\", and \"18\", featuring vertical grooves and bolt holes along the curved wall, with people resting on the rim in a park setting under bright daylight."
+  },
+  {
+    "path": "n04355338/ILSVRC2012_val_00002136.JPEG",
+    "id": "ILSVRC2012_val_00002136",
+    "recaption_short": "An octagonal sundial mounted on a rough stone wall, featuring golden Roman numerals I through XII, the year \"1732\" inscribed in the center, and the name \"ROSS WILLIAMS\" arched above a sunburst design, with a gnomon casting a sharp shadow across the dial."
+  },
+  {
+    "path": "n04355338/ILSVRC2012_val_00002354.JPEG",
+    "id": "ILSVRC2012_val_00002354",
+    "recaption_short": "A decorative sundial with Roman numerals and ornate scrollwork, mounted on a white stucco wall between two arched windows with dark wooden frames."
+  },
+  {
+    "path": "n04355338/ILSVRC2012_val_00004847.JPEG",
+    "id": "ILSVRC2012_val_00004847",
+    "recaption_short": "A weathered stone sundial with a triangular gnomon casting a shadow, featuring engraved hour markers and decorative carvings, set outdoors on a concrete base surrounded by green foliage."
+  },
+  {
+    "path": "n04355338/ILSVRC2012_val_00005399.JPEG",
+    "id": "ILSVRC2012_val_00005399",
+    "recaption_short": "A tall, weathered stone monolith with a sharp, pointed top stands upright in a gravelly foreground, its surface textured with erosion and patches of lichen. Behind it, a range of arid, brownish mountains rises under a bright blue sky filled with scattered white cumulus clouds. Low green shrubs and trees dot the base of the mountains and line the edge of the gravel area."
+  },
+  {
+    "path": "n04557648/ILSVRC2012_val_00000745.JPEG",
+    "id": "ILSVRC2012_val_00000745",
+    "recaption_short": "A person wearing beige pants and brown sneakers stands on a skateboard, balancing on a row of clear plastic water bottles with green labels, positioned on a gray carpeted floor with a potted plant and office furniture in the background; inset image shows a top-down view of sixteen clear glass bottles arranged in a circular pattern on the same gray carpet."
+  },
+  {
+    "path": "n04557648/ILSVRC2012_val_00001668.JPEG",
+    "id": "ILSVRC2012_val_00001668",
+    "recaption_short": "A person wearing a striped shirt and dark pants with a green logo, holding a blue plastic water bottle with a black cap and handle, standing on a cobblestone pavement under bright sunlight."
+  },
+  {
+    "path": "n04557648/ILSVRC2012_val_00003318.JPEG",
+    "id": "ILSVRC2012_val_00003318",
+    "recaption_short": "A cyclist wearing a white and green cycling jersey with \"GRANDESSO\" and \"2020\" printed vertically in black, paired with black shorts, a white helmet with \"LAZ\" on the front, and reflective sunglasses, holds a gray water bottle with handwritten text. Behind them, a stone fountain with engraved text including \"OLIMPICOS\" and \"SUL CORTO\" is visible, set against a backdrop of a beige building with windows and green foliage."
+  },
+  {
+    "path": "n04557648/ILSVRC2012_val_00003340.JPEG",
+    "id": "ILSVRC2012_val_00003340",
+    "recaption_short": "A large blue-lit plastic water jug with a spigot, glowing with intense blue light, sits on a reflective surface surrounded by scattered papers and a woven basket with a handle, all under dim, moody lighting with deep shadows."
+  },
+  {
+    "path": "n04557648/ILSVRC2012_val_00003429.JPEG",
+    "id": "ILSVRC2012_val_00003429",
+    "recaption_short": "A yellow water bottle with a black and yellow cap, featuring a printed map of Minnesota on its side, stands upright in a grassy field. The background shows a wide expanse of green grass, a line of tall reeds, and a distant treeline under an overcast sky."
+  },
+  {
+    "path": "n07836838/ILSVRC2012_val_00000782.JPEG",
+    "id": "ILSVRC2012_val_00000782",
+    "recaption_short": "A bald man with his eyes closed, covered in thick, glossy chocolate sauce dripping down his face, neck, and shoulders, against a plain light beige background, with the text \"deepahwa@yahoo.co.in\" visible at the bottom right."
+  },
+  {
+    "path": "n07836838/ILSVRC2012_val_00001078.JPEG",
+    "id": "ILSVRC2012_val_00001078",
+    "recaption_short": "A white ceramic mug with a metal spoon inside, stained with brown residue, sits beside a foil-lined baking tray containing a glossy, dark brown dessert with a slightly cracked surface, all resting on a wooden table."
+  },
+  {
+    "path": "n07836838/ILSVRC2012_val_00001483.JPEG",
+    "id": "ILSVRC2012_val_00001483",
+    "recaption_short": "A scoop of vanilla ice cream with dark chocolate sauce drizzled over it, resting atop a chocolate brownie in a clear glass bowl, placed on a wooden surface."
+  },
+  {
+    "path": "n07836838/ILSVRC2012_val_00001642.JPEG",
+    "id": "ILSVRC2012_val_00001642",
+    "recaption_short": "A golden-brown baked dessert, resembling a bread pudding or monkey bread, topped with dark chocolate chips and drizzled with glossy caramel sauce and chocolate sauce, presented on a white plate with artistic sauce swirls, set against a reflective stainless steel surface."
+  },
+  {
+    "path": "n07836838/ILSVRC2012_val_00001823.JPEG",
+    "id": "ILSVRC2012_val_00001823",
+    "recaption_short": "A golden-brown, puffy dessert drizzled with dark chocolate sauce and dusted with powdered sugar, garnished with a fresh green mint leaf, presented on a white plate."
+  }
+]

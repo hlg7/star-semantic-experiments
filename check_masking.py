@@ -32,6 +32,8 @@ def main():
     parser.add_argument("--cfg", type=float, default=4.0)
     parser.add_argument("--top-k", type=int, default=600)
     parser.add_argument("--top-p", type=float, default=0.8)
+    parser.add_argument("--weight-audit", choices=["all", "first-per-semantic"], default="all",
+                        help="Audit actual QK probabilities on all inputs or the first input of each semantic; structural checks always run.")
     args = parser.parse_args()
     if args.output.exists() and any(args.output.iterdir()):
         raise SystemExit("Use an empty output directory for this verification run.")
@@ -107,7 +109,7 @@ def main():
                     implementation="upstream [0] broadcast; B=1", patch_nums=PATCH_NUMS,
                     config=dict(cfg=args.cfg, top_k=args.top_k, top_p=args.top_p,
                                 seeds=args.seeds, sampler=False, backend="math SDP"),
-                    inputs=items, torch=torch.__version__, cuda=torch.version.cuda,
+                    inputs=items, weight_audit=args.weight_audit, torch=torch.__version__, cuda=torch.version.cuda,
                     gpu=torch.cuda.get_device_name(0),
                     script_sha256=hashlib.sha256(Path(__file__).read_bytes()).hexdigest(),
                     intervention="Conditional text key positions only; empty-text mask unchanged. "
@@ -122,6 +124,11 @@ def main():
     def audited_sdp(*a, **kw):
         # Audit the exact Q/K and bias passed to the existing attention kernel.
         if active is not None:
+            if not active["audit_weights"]:
+                active["audit"].append(dict(layer=active["layer"], scale=active["scale"],
+                                            masked=active["masked"], audit_type="structural"))
+                with torch.backends.cuda.sdp_kernel(enable_flash=False, enable_math=True, enable_mem_efficient=False):
+                    return native_sdp(*a, **kw)
             bias = kw["attn_mask"]
             q, k = kw["query"], kw["key"]
             with torch.autocast("cuda", enabled=False):
@@ -138,8 +145,11 @@ def main():
             return native_sdp(*a, **kw)
     basic.F.scaled_dot_product_attention = audited_sdp
 
+    audited_semantics = set()
     try:
         for item_index, item in enumerate(items):
+            audit_weights = args.weight_audit == "all" or item["semantic"] not in audited_semantics
+            audited_semantics.add(item["semantic"])
             prompt = item["prompt"]
             actual = text_encoder.tokenizer(prompt, truncation=False)["input_ids"]
             located = locator(prompt, truncation=False, return_offsets_mapping=True)
@@ -202,7 +212,7 @@ def main():
                                 raise RuntimeError("Unintended mask modification")
                             kw["attn_bias"] = modified
                             active = dict(layer=layer, scale=scale, masked=masked,
-                                          positions=positions, audit=audit)
+                                          positions=positions, audit=audit, audit_weights=audit_weights)
                             return a, kw
                         return pre
                     def post(module, a, output):
@@ -257,7 +267,7 @@ def main():
                                   seed=seed, masked_scales=selected, aliases=aliases,
                                   condition_sha256=frozen, image_sha256=image_hash,
                                   scale_sha256=scale_hashes, unchanged_prefix_scales=prefix_length,
-                                  attention_audit=audit, elapsed_seconds=time.monotonic()-started,
+                                  attention_weight_audit=audit_weights, attention_audit=audit, elapsed_seconds=time.monotonic()-started,
                                   peak_cuda_allocated_bytes=torch.cuda.max_memory_allocated())
                     with (args.output / "runs.jsonl").open("a") as f:
                         f.write(json.dumps(record) + "\n")
