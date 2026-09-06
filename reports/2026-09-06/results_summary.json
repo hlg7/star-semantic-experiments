@@ -1,0 +1,56 @@
+{
+  "object": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.8653113341331482,
+    "scene_families": 10,
+    "full_mask_clipscore_mean": 0.8709076416492462,
+    "full_mask_clipscore_drop_mean": -0.005596307516098023,
+    "full_mask_lpips_mean": 0.1378442035894841
+  },
+  "color": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.9018439745903015,
+    "scene_families": 10,
+    "full_mask_clipscore_mean": 0.905062198638916,
+    "full_mask_clipscore_drop_mean": -0.0032182240486145017,
+    "full_mask_lpips_mean": 0.14396725840168073
+  },
+  "shape": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.867687680721283,
+    "scene_families": 6,
+    "full_mask_clipscore_mean": 0.8676622867584228,
+    "full_mask_clipscore_drop_mean": 2.5393962860107423e-05,
+    "full_mask_lpips_mean": 0.14026824422180653
+  },
+  "texture": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.9102693891525269,
+    "scene_families": 8,
+    "full_mask_clipscore_mean": 0.9116516959667206,
+    "full_mask_clipscore_drop_mean": -0.0013823068141937255,
+    "full_mask_lpips_mean": 0.14134930666536094
+  },
+  "count": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.8683300471305847,
+    "scene_families": 8,
+    "full_mask_clipscore_mean": 0.856751959323883,
+    "full_mask_clipscore_drop_mean": 0.01157808780670166,
+    "full_mask_lpips_mean": 0.18818925919011234
+  },
+  "spatial_relation": {
+    "n_prompts": 50,
+    "seed": 42,
+    "baseline_clipscore_mean": 0.8795398581027984,
+    "scene_families": 7,
+    "full_mask_clipscore_mean": 0.8804480063915253,
+    "full_mask_clipscore_drop_mean": -0.0009081482887268067,
+    "full_mask_lpips_mean": 0.13364921687170864
+  }
+}

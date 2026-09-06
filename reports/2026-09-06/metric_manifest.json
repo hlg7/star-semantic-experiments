@@ -1,0 +1,16 @@
+{
+  "generation_manifest_sha256": "bfb1ea9bf67023e61068144ed3d7c93ca35eb0ec192e6b92d4b68b6268a24d52",
+  "script_sha256": "98ce68b5e77c7922a89d23d093bcdc528ff74f2132b852d9fa80289981f810e4",
+  "clip_model": "ViT-B/32",
+  "clip_commit": "d05afc436d78f1c48dc0dbf8e5980a9d471f35f6",
+  "clip_prefix": "A photo depicts ",
+  "clip_formula": "2.5*max(cosine,0)",
+  "precision": "float32; TF32 disabled",
+  "lpips_net": "alex",
+  "lpips_version": "0.1",
+  "lpips_package": "0.1.4",
+  "torch": "2.8.0+cu128",
+  "batch_size": 32,
+  "canonical_images": 6000,
+  "note": "Full-prompt alignment and paired perceptual change; no VQA or semantic correctness score."
+}

@@ -1,0 +1,14 @@
+{
+  "status": "passed",
+  "records": 6600,
+  "prompts": 300,
+  "png_files": 6600,
+  "checks": {
+    "layer_scale_checks": 1890000,
+    "actual_probability_checks": 37800,
+    "masked_probability_checks": 19800,
+    "structural_only_checks": 1852200
+  },
+  "all_noop_and_repeat_hashes_match": true,
+  "all_text_global_hashes_unchanged": true
+}

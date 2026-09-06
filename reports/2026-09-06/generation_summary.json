@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "completed_runs": 6600,
+  "checks": [
+    "strict checkpoint load",
+    "fast/slow tokenizer ID agreement",
+    "all-layer mask audit",
+    "zero masked target attention",
+    "global and text features unchanged",
+    "no-op matches unhooked reference",
+    "pre-intervention visual prefix unchanged",
+    "full-mask repeat matches"
+  ],
+  "note": "Implementation verification only; no semantic metric or generalization conclusion."
+}

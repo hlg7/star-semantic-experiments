@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "images_scored": 6000,
+  "prompts": 300,
+  "baseline_self_comparisons": 300,
+  "baseline_self_checks_passed": true
+}
