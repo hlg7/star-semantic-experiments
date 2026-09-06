@@ -1,0 +1,1082 @@
+[
+  {
+    "id": "object_01",
+    "prompt_id": "prompt_001",
+    "prompt": "A red car.",
+    "semantic": "object",
+    "spans": [
+      [
+        6,
+        9
+      ]
+    ],
+    "target_text": "car",
+    "target_object": "car",
+    "subtype": "identity",
+    "composition": "single_object",
+    "expected": "A car is present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_02",
+    "prompt_id": "prompt_002",
+    "prompt": "A blue backpack.",
+    "semantic": "object",
+    "spans": [
+      [
+        7,
+        15
+      ]
+    ],
+    "target_text": "backpack",
+    "target_object": "backpack",
+    "subtype": "identity",
+    "composition": "single_object",
+    "expected": "A backpack is present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_03",
+    "prompt_id": "prompt_003",
+    "prompt": "A green chair.",
+    "semantic": "object",
+    "spans": [
+      [
+        8,
+        13
+      ]
+    ],
+    "target_text": "chair",
+    "target_object": "chair",
+    "subtype": "identity",
+    "composition": "single_object",
+    "expected": "A chair is present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_04",
+    "prompt_id": "prompt_004",
+    "prompt": "A yellow umbrella.",
+    "semantic": "object",
+    "spans": [
+      [
+        9,
+        17
+      ]
+    ],
+    "target_text": "umbrella",
+    "target_object": "umbrella",
+    "subtype": "identity",
+    "composition": "single_object",
+    "expected": "An umbrella is present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_05",
+    "prompt_id": "prompt_005",
+    "prompt": "A purple vase.",
+    "semantic": "object",
+    "spans": [
+      [
+        9,
+        13
+      ]
+    ],
+    "target_text": "vase",
+    "target_object": "vase",
+    "subtype": "identity",
+    "composition": "single_object",
+    "expected": "A vase is present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_06",
+    "prompt_id": "prompt_006",
+    "prompt": "A cat beside a bicycle.",
+    "semantic": "object",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "cat",
+    "target_object": "cat",
+    "subtype": "identity",
+    "composition": "multiple_objects",
+    "expected": "A cat is present, alongside the bicycle.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_07",
+    "prompt_id": "prompt_007",
+    "prompt": "A bicycle beside a bench.",
+    "semantic": "object",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "bicycle",
+    "target_object": "bicycle",
+    "subtype": "identity",
+    "composition": "multiple_objects",
+    "expected": "A bicycle is present, alongside the bench.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_08",
+    "prompt_id": "prompt_008",
+    "prompt": "A blue cup beside a white bowl.",
+    "semantic": "object",
+    "spans": [
+      [
+        7,
+        10
+      ]
+    ],
+    "target_text": "cup",
+    "target_object": "cup",
+    "subtype": "identity",
+    "composition": "multiple_objects",
+    "expected": "A cup is present, alongside the bowl.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_09",
+    "prompt_id": "prompt_009",
+    "prompt": "A book beside a lamp.",
+    "semantic": "object",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "book",
+    "target_object": "book",
+    "subtype": "identity",
+    "composition": "multiple_objects",
+    "expected": "A book is present, alongside the lamp.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "object_10",
+    "prompt_id": "prompt_010",
+    "prompt": "A dog beside a suitcase.",
+    "semantic": "object",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "dog",
+    "target_object": "dog",
+    "subtype": "identity",
+    "composition": "multiple_objects",
+    "expected": "A dog is present, alongside the suitcase.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_01",
+    "prompt_id": "prompt_001",
+    "prompt": "A red car.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "car",
+    "subtype": "color",
+    "composition": "single_object",
+    "expected": "The car is red.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_02",
+    "prompt_id": "prompt_002",
+    "prompt": "A blue backpack.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "backpack",
+    "subtype": "color",
+    "composition": "single_object",
+    "expected": "The backpack is blue.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_03",
+    "prompt_id": "prompt_003",
+    "prompt": "A green chair.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "chair",
+    "subtype": "color",
+    "composition": "single_object",
+    "expected": "The chair is green.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_04",
+    "prompt_id": "prompt_004",
+    "prompt": "A yellow umbrella.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "umbrella",
+    "subtype": "color",
+    "composition": "single_object",
+    "expected": "The umbrella is yellow.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_05",
+    "prompt_id": "prompt_005",
+    "prompt": "A purple vase.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "vase",
+    "subtype": "color",
+    "composition": "single_object",
+    "expected": "The vase is purple.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_06",
+    "prompt_id": "prompt_011",
+    "prompt": "A red backpack beside a blue suitcase.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        5
+      ]
+    ],
+    "target_text": "red",
+    "target_object": "backpack",
+    "subtype": "color_binding",
+    "composition": "multiple_objects",
+    "expected": "The backpack is red; the suitcase is blue.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_07",
+    "prompt_id": "prompt_008",
+    "prompt": "A blue cup beside a white bowl.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        6
+      ]
+    ],
+    "target_text": "blue",
+    "target_object": "cup",
+    "subtype": "color_binding",
+    "composition": "multiple_objects",
+    "expected": "The cup is blue; the bowl is white.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_08",
+    "prompt_id": "prompt_012",
+    "prompt": "A green car beside a yellow bicycle.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "green",
+    "target_object": "car",
+    "subtype": "color_binding",
+    "composition": "multiple_objects",
+    "expected": "The car is green; the bicycle is yellow.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_09",
+    "prompt_id": "prompt_013",
+    "prompt": "A yellow vase beside a purple lamp.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "yellow",
+    "target_object": "vase",
+    "subtype": "color_binding",
+    "composition": "multiple_objects",
+    "expected": "The vase is yellow; the lamp is purple.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "color_10",
+    "prompt_id": "prompt_014",
+    "prompt": "A purple chair beside a red table.",
+    "semantic": "color",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "purple",
+    "target_object": "chair",
+    "subtype": "color_binding",
+    "composition": "multiple_objects",
+    "expected": "The chair is purple; the table is red.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_01",
+    "prompt_id": "prompt_015",
+    "prompt": "A square plate.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "plate",
+    "subtype": "outline",
+    "composition": "single_object",
+    "expected": "The plate has a square outline.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_02",
+    "prompt_id": "prompt_016",
+    "prompt": "A round mirror.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "mirror",
+    "subtype": "outline",
+    "composition": "single_object",
+    "expected": "The mirror has a round outline.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_03",
+    "prompt_id": "prompt_017",
+    "prompt": "A triangular sign.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "sign",
+    "subtype": "outline",
+    "composition": "single_object",
+    "expected": "The sign has a triangular outline.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_04",
+    "prompt_id": "prompt_018",
+    "prompt": "An oval rug.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "rug",
+    "subtype": "outline",
+    "composition": "single_object",
+    "expected": "The rug has an oval outline.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_05",
+    "prompt_id": "prompt_019",
+    "prompt": "A rectangular table.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "table",
+    "subtype": "outline",
+    "composition": "single_object",
+    "expected": "The tabletop has a rectangular outline.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_06",
+    "prompt_id": "prompt_020",
+    "prompt": "A square mirror beside a round clock.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "square",
+    "target_object": "mirror",
+    "subtype": "shape_binding",
+    "composition": "multiple_objects",
+    "expected": "The mirror is square; the clock is round.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_07",
+    "prompt_id": "prompt_021",
+    "prompt": "A round plate beside a square tray.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "round",
+    "target_object": "plate",
+    "subtype": "shape_binding",
+    "composition": "multiple_objects",
+    "expected": "The plate is round; the tray is square.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_08",
+    "prompt_id": "prompt_022",
+    "prompt": "A triangular flag beside a rectangular sign.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        12
+      ]
+    ],
+    "target_text": "triangular",
+    "target_object": "flag",
+    "subtype": "shape_binding",
+    "composition": "multiple_objects",
+    "expected": "The flag is triangular; the sign is rectangular.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_09",
+    "prompt_id": "prompt_023",
+    "prompt": "An oval tray beside a round bowl.",
+    "semantic": "shape",
+    "spans": [
+      [
+        3,
+        7
+      ]
+    ],
+    "target_text": "oval",
+    "target_object": "tray",
+    "subtype": "shape_binding",
+    "composition": "multiple_objects",
+    "expected": "The tray has an oval outline; the bowl is round.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "shape_10",
+    "prompt_id": "prompt_024",
+    "prompt": "A rectangular rug beside a round stool.",
+    "semantic": "shape",
+    "spans": [
+      [
+        2,
+        13
+      ]
+    ],
+    "target_text": "rectangular",
+    "target_object": "rug",
+    "subtype": "shape_binding",
+    "composition": "multiple_objects",
+    "expected": "The rug has a rectangular outline; the stool is round.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_01",
+    "prompt_id": "prompt_025",
+    "prompt": "A striped shirt.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "shirt",
+    "subtype": "pattern",
+    "composition": "single_object",
+    "expected": "The shirt has a striped pattern.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_02",
+    "prompt_id": "prompt_026",
+    "prompt": "A checkered blanket.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "blanket",
+    "subtype": "pattern",
+    "composition": "single_object",
+    "expected": "The blanket has a checkered pattern.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_03",
+    "prompt_id": "prompt_027",
+    "prompt": "A polka-dotted umbrella.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "umbrella",
+    "subtype": "pattern",
+    "composition": "single_object",
+    "expected": "The umbrella has a polka-dot pattern.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_04",
+    "prompt_id": "prompt_028",
+    "prompt": "A rough stone.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "stone",
+    "subtype": "surface",
+    "composition": "single_object",
+    "expected": "The stone has a visibly rough surface.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_05",
+    "prompt_id": "prompt_029",
+    "prompt": "A smooth vase.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "vase",
+    "subtype": "surface",
+    "composition": "single_object",
+    "expected": "The vase has a visibly smooth surface.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_06",
+    "prompt_id": "prompt_030",
+    "prompt": "A striped blanket beside a checkered pillow.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        9
+      ]
+    ],
+    "target_text": "striped",
+    "target_object": "blanket",
+    "subtype": "pattern_binding",
+    "composition": "multiple_objects",
+    "expected": "The blanket is striped; the pillow is checkered.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_07",
+    "prompt_id": "prompt_031",
+    "prompt": "A checkered shirt beside a striped scarf.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        11
+      ]
+    ],
+    "target_text": "checkered",
+    "target_object": "shirt",
+    "subtype": "pattern_binding",
+    "composition": "multiple_objects",
+    "expected": "The shirt is checkered; the scarf is striped.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_08",
+    "prompt_id": "prompt_032",
+    "prompt": "A polka-dotted bag beside a striped hat.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        14
+      ]
+    ],
+    "target_text": "polka-dotted",
+    "target_object": "bag",
+    "subtype": "pattern_binding",
+    "composition": "multiple_objects",
+    "expected": "The bag has polka dots; the hat is striped.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_09",
+    "prompt_id": "prompt_033",
+    "prompt": "A rough vase beside a smooth bowl.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        7
+      ]
+    ],
+    "target_text": "rough",
+    "target_object": "vase",
+    "subtype": "surface_binding",
+    "composition": "multiple_objects",
+    "expected": "The vase has a rough surface; the bowl has a smooth surface.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "texture_10",
+    "prompt_id": "prompt_034",
+    "prompt": "A smooth stone beside a rough brick.",
+    "semantic": "texture",
+    "spans": [
+      [
+        2,
+        8
+      ]
+    ],
+    "target_text": "smooth",
+    "target_object": "stone",
+    "subtype": "surface_binding",
+    "composition": "multiple_objects",
+    "expected": "The stone has a smooth surface; the brick has a rough surface.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_01",
+    "prompt_id": "prompt_035",
+    "prompt": "Two cups.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "cups",
+    "subtype": "single_category",
+    "composition": "multiple_objects",
+    "expected": "Exactly two cups are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_02",
+    "prompt_id": "prompt_036",
+    "prompt": "Three bottles.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "bottles",
+    "subtype": "single_category",
+    "composition": "multiple_objects",
+    "expected": "Exactly three bottles are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_03",
+    "prompt_id": "prompt_037",
+    "prompt": "Four apples.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "apples",
+    "subtype": "single_category",
+    "composition": "multiple_objects",
+    "expected": "Exactly four apples are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_04",
+    "prompt_id": "prompt_038",
+    "prompt": "Two dogs.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "dogs",
+    "subtype": "single_category",
+    "composition": "multiple_objects",
+    "expected": "Exactly two dogs are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_05",
+    "prompt_id": "prompt_039",
+    "prompt": "Three chairs.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "chairs",
+    "subtype": "single_category",
+    "composition": "multiple_objects",
+    "expected": "Exactly three chairs are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_06",
+    "prompt_id": "prompt_040",
+    "prompt": "Two bottles beside one bowl.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "bottles",
+    "subtype": "count_binding",
+    "composition": "multiple_objects",
+    "expected": "Exactly two bottles and one bowl are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_07",
+    "prompt_id": "prompt_041",
+    "prompt": "Three cups beside one plate.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "cups",
+    "subtype": "count_binding",
+    "composition": "multiple_objects",
+    "expected": "Exactly three cups and one plate are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_08",
+    "prompt_id": "prompt_042",
+    "prompt": "Four oranges beside one apple.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        4
+      ]
+    ],
+    "target_text": "Four",
+    "target_object": "oranges",
+    "subtype": "count_binding",
+    "composition": "multiple_objects",
+    "expected": "Exactly four oranges and one apple are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_09",
+    "prompt_id": "prompt_043",
+    "prompt": "Two cats beside one dog.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        3
+      ]
+    ],
+    "target_text": "Two",
+    "target_object": "cats",
+    "subtype": "count_binding",
+    "composition": "multiple_objects",
+    "expected": "Exactly two cats and one dog are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "count_10",
+    "prompt_id": "prompt_044",
+    "prompt": "Three books beside one lamp.",
+    "semantic": "count",
+    "spans": [
+      [
+        0,
+        5
+      ]
+    ],
+    "target_text": "Three",
+    "target_object": "books",
+    "subtype": "count_binding",
+    "composition": "multiple_objects",
+    "expected": "Exactly three books and one lamp are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_01",
+    "prompt_id": "prompt_045",
+    "prompt": "A cup to the left of a bowl.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        6,
+        20
+      ]
+    ],
+    "target_text": "to the left of",
+    "target_object": "cup",
+    "subtype": "left_right",
+    "composition": "multiple_objects",
+    "expected": "The cup is to the viewer's left of the bowl; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_02",
+    "prompt_id": "prompt_046",
+    "prompt": "A cup to the right of a bowl.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        6,
+        21
+      ]
+    ],
+    "target_text": "to the right of",
+    "target_object": "cup",
+    "subtype": "left_right",
+    "composition": "multiple_objects",
+    "expected": "The cup is to the viewer's right of the bowl; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_03",
+    "prompt_id": "prompt_047",
+    "prompt": "A bicycle to the left of a bench.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        10,
+        24
+      ]
+    ],
+    "target_text": "to the left of",
+    "target_object": "bicycle",
+    "subtype": "left_right",
+    "composition": "multiple_objects",
+    "expected": "The bicycle is to the viewer's left of the bench; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_04",
+    "prompt_id": "prompt_048",
+    "prompt": "A bicycle to the right of a bench.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        10,
+        25
+      ]
+    ],
+    "target_text": "to the right of",
+    "target_object": "bicycle",
+    "subtype": "left_right",
+    "composition": "multiple_objects",
+    "expected": "The bicycle is to the viewer's right of the bench; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_05",
+    "prompt_id": "prompt_049",
+    "prompt": "A balloon above a box.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        10,
+        15
+      ]
+    ],
+    "target_text": "above",
+    "target_object": "balloon",
+    "subtype": "above_below",
+    "composition": "multiple_objects",
+    "expected": "The balloon is above the box; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_06",
+    "prompt_id": "prompt_050",
+    "prompt": "A balloon below a box.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        10,
+        15
+      ]
+    ],
+    "target_text": "below",
+    "target_object": "balloon",
+    "subtype": "above_below",
+    "composition": "multiple_objects",
+    "expected": "The balloon is below the box; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_07",
+    "prompt_id": "prompt_051",
+    "prompt": "A cat in front of a suitcase.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        6,
+        17
+      ]
+    ],
+    "target_text": "in front of",
+    "target_object": "cat",
+    "subtype": "front_behind",
+    "composition": "multiple_objects",
+    "expected": "The cat is in front of the suitcase; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_08",
+    "prompt_id": "prompt_052",
+    "prompt": "A cat behind a suitcase.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        6,
+        12
+      ]
+    ],
+    "target_text": "behind",
+    "target_object": "cat",
+    "subtype": "front_behind",
+    "composition": "multiple_objects",
+    "expected": "The cat is behind the suitcase; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_09",
+    "prompt_id": "prompt_053",
+    "prompt": "A ball inside a basket.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        7,
+        13
+      ]
+    ],
+    "target_text": "inside",
+    "target_object": "ball",
+    "subtype": "containment",
+    "composition": "multiple_objects",
+    "expected": "The ball is inside the basket; both are present.",
+    "baseline_status": "not_evaluated"
+  },
+  {
+    "id": "spatial_relation_10",
+    "prompt_id": "prompt_054",
+    "prompt": "A ball outside a basket.",
+    "semantic": "spatial_relation",
+    "spans": [
+      [
+        7,
+        14
+      ]
+    ],
+    "target_text": "outside",
+    "target_object": "ball",
+    "subtype": "containment",
+    "composition": "multiple_objects",
+    "expected": "The ball is outside the basket; both are present.",
+    "baseline_status": "not_evaluated"
+  }
+]
