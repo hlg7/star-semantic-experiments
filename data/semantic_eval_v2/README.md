@@ -1,5 +1,7 @@
 # General semantic evaluation protocol v2
 
+**Historical version.** For the consolidated rules actually used in the final 6,000-image run, read the [final v3 evaluator specification](../semantic_eval_v3/README.md).
+
 **Development and held-out screening completed; not validated.** Grounding DINO and Qwen VLM remain the tool families. This revision defines task-wide semantics and a structured identity check; it does not validate either model. The v1 pilot, AI review and original prompts remain unchanged. No RunPod inference is triggered by these files.
 
 ## What is general, what is dataset-specific

@@ -15,7 +15,7 @@ Scale-wise interventions on **STAR d30 at 256×256**. We block cross-attention a
 
 Evaluated the same **6,000 images** with fixed primary tools: **2,600 Grounding DINO** evaluations and **3,400 Qwen3-VL** evaluations. There are **5,999 valid scores and one explicitly excluded color-category error**. No images were regenerated.
 
-The [v3 rubric](data/semantic_eval_v3/README.md) was clarified after the [held-out audit](reports/2026-09-08/heldout/README.md). These are **exploratory automatic scores, not validated semantic accuracy**. Prior pilot scores are kept separate; original LPIPS and CLIPScore results below are unchanged.
+The [complete final evaluator specification](data/semantic_eval_v3/README.md) was clarified after the [held-out audit](reports/2026-09-08/heldout/README.md). These are **exploratory automatic scores, not validated semantic accuracy**. Prior pilot scores are kept separate; original LPIPS and CLIPScore results below are unchanged.
 
 | Semantic | Baseline | Full mask | Paired change | Gained / lost successes |
 |---|---:|---:|---:|---:|
