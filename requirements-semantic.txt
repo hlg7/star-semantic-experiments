@@ -1,0 +1,4 @@
+# Separate CUDA evaluation environment; install a matching torch/torchvision pair first.
+transformers==4.57.1
+Pillow==11.3.0
+accelerate==1.10.1

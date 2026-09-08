@@ -1,0 +1,3490 @@
+[
+  {
+    "blind_id": "image_0007",
+    "question": "After confirming the identity of the mirror, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0010",
+    "question": "After confirming the identity of the tray, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0012",
+    "question": "Is any notebook visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0015",
+    "question": "After confirming the identity of the floor mat, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0016",
+    "question": "Does the visible surface of the stone look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0017",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0018",
+    "question": "Is any scarf visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0019",
+    "question": "After confirming the identity of the cushion, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0021",
+    "question": "Is the shelf above, below, or vertically aligned with the mirror in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0024",
+    "question": "Is any bookcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0026",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0027",
+    "question": "What is the dominant visible surface pattern on the umbrella, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0028",
+    "question": "Is the shelf above, below, or vertically aligned with the mirror in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0030",
+    "question": "Is the notebook in front of, behind, or at the same depth as the pencil case? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0033",
+    "question": "Does the visible surface of the sculpture look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0034",
+    "question": "Is any suitcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0036",
+    "question": "How many distinct baskets are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0037",
+    "question": "Does the visible surface of the stone look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0039",
+    "question": "What is the main surface color of the shoe? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0041",
+    "question": "What is the main surface color of the handbag? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0042",
+    "question": "Is the apple inside, outside, or partially inserted into the interior space of the bowl? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0043",
+    "question": "From the viewer perspective, is the coffee pot left of, right of, or horizontally aligned with the mug? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0044",
+    "question": "What is the dominant visible surface pattern on the curtain, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0045",
+    "question": "What is the main surface color of the table? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0046",
+    "question": "After confirming the identity of the cushion, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0048",
+    "question": "How many distinct flowerpots are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0049",
+    "question": "What is the dominant visible surface pattern on the handbag, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0051",
+    "question": "From the viewer perspective, is the bowl left of, right of, or horizontally aligned with the vase? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0053",
+    "question": "Is the hat in front of, behind, or at the same depth as the handbag? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0055",
+    "question": "Does the visible surface of the sculpture look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0057",
+    "question": "After confirming the identity of the rug, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0058",
+    "question": "Is any bowl visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0060",
+    "question": "Is the spoon inside, outside, or partially inserted into the interior space of the mug? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0063",
+    "question": "Is the spoon inside, outside, or partially inserted into the interior space of the mug? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0066",
+    "question": "Is any motorcycle visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0067",
+    "question": "Does the visible surface of the sculpture look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0068",
+    "question": "From the viewer perspective, is the coffee pot left of, right of, or horizontally aligned with the mug? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0069",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0070",
+    "question": "What is the main surface color of the truck? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0072",
+    "question": "What is the main surface color of the shoe? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0078",
+    "question": "Does the visible surface of the tray look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0080",
+    "question": "What is the main surface color of the glass jar? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0084",
+    "question": "Is the picture frame above, below, or vertically aligned with the wall clock in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0086",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0088",
+    "question": "What is the main surface color of the truck? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0089",
+    "question": "After confirming the identity of the tray, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0090",
+    "question": "Is any vase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0091",
+    "question": "How many distinct baskets are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0092",
+    "question": "Is the hat in front of, behind, or at the same depth as the handbag? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0094",
+    "question": "Does the visible surface of the stone look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0096",
+    "question": "Is any motorcycle visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0098",
+    "question": "Is the notebook in front of, behind, or at the same depth as the pencil case? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0100",
+    "question": "What is the main surface color of the handbag? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0103",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0105",
+    "question": "What is the main surface color of the water bottle? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0106",
+    "question": "Is any bookcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0108",
+    "question": "After confirming the identity of the tabletop, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0109",
+    "question": "What is the main surface color of the table? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0110",
+    "question": "How many distinct remote controls are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0116",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0117",
+    "question": "Is any suitcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0119",
+    "question": "What is the dominant visible surface pattern on the handbag, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0120",
+    "question": "What is the main surface color of the bench? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0121",
+    "question": "What is the main surface color of the bench? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0129",
+    "question": "Is any notebook visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0130",
+    "question": "After confirming the identity of the picture frame, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0131",
+    "question": "Is the hat in front of, behind, or at the same depth as the handbag? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0132",
+    "question": "Is any bookcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0133",
+    "question": "What is the main surface color of the water bottle? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0140",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0143",
+    "question": "After confirming the identity of the sign, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0145",
+    "question": "What is the dominant visible surface pattern on the curtain, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0147",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0148",
+    "question": "After confirming the identity of the mirror, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0150",
+    "question": "Does the visible surface of the tray look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0153",
+    "question": "After confirming the identity of the sign, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0156",
+    "question": "Is any vase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0158",
+    "question": "How many distinct remote controls are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0159",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0161",
+    "question": "After confirming the identity of the picture frame, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0165",
+    "question": "What is the dominant visible surface pattern on the curtain, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0166",
+    "question": "After confirming the identity of the rug, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0168",
+    "question": "What is the main surface color of the hourglass? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0169",
+    "question": "Is any vase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0170",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0173",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0178",
+    "question": "Does the visible surface of the plate look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0179",
+    "question": "Is any vase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0180",
+    "question": "Is any notebook visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0182",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0183",
+    "question": "How many distinct hats are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0185",
+    "question": "Does the visible surface of the tray look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0186",
+    "question": "How many distinct bottles are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0188",
+    "question": "Is any watering can visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0189",
+    "question": "How many distinct remote controls are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0190",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0191",
+    "question": "From the viewer perspective, is the coffee pot left of, right of, or horizontally aligned with the mug? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0192",
+    "question": "Is the spoon inside, outside, or partially inserted into the interior space of the mug? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0195",
+    "question": "Is any suitcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0196",
+    "question": "How many distinct hats are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0198",
+    "question": "Is any mug visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0200",
+    "question": "Is the ball inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0202",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0203",
+    "question": "Is any motorcycle visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0205",
+    "question": "Is any scarf visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0207",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0209",
+    "question": "Is the hat in front of, behind, or at the same depth as the handbag? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0211",
+    "question": "Is the picture frame above, below, or vertically aligned with the wall clock in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0212",
+    "question": "After confirming the identity of the rug, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0213",
+    "question": "How many distinct books are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0215",
+    "question": "Is any motorcycle visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0217",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0218",
+    "question": "What is the main surface color of the table? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0220",
+    "question": "What is the main surface color of the tray? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0221",
+    "question": "How many distinct hats are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0223",
+    "question": "What is the main surface color of the handbag? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0224",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0225",
+    "question": "How many distinct baskets are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0229",
+    "question": "Is any bench visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0230",
+    "question": "After confirming the identity of the tabletop, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0231",
+    "question": "From the viewer perspective, is the bowl left of, right of, or horizontally aligned with the vase? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0232",
+    "question": "Is the shelf above, below, or vertically aligned with the mirror in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0233",
+    "question": "What is the main surface color of the fountain? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0235",
+    "question": "Is any mug visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0237",
+    "question": "After confirming the identity of the picture frame, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0240",
+    "question": "Is any watering can visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0241",
+    "question": "Is the hat inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0247",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0251",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0253",
+    "question": "After confirming the identity of the floor mat, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0255",
+    "question": "What is the dominant visible surface pattern on the curtain, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0258",
+    "question": "Is the apple inside, outside, or partially inserted into the interior space of the bowl? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0259",
+    "question": "How many distinct books are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0261",
+    "question": "From the viewer perspective, is the bowl left of, right of, or horizontally aligned with the vase? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0262",
+    "question": "What is the main surface color of the shoe? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0263",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0264",
+    "question": "What is the main surface color of the glass jar? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0266",
+    "question": "From the viewer perspective, is the bowl left of, right of, or horizontally aligned with the vase? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0268",
+    "question": "What is the main surface color of the hourglass? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0269",
+    "question": "Does the visible surface of the plate look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0270",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0271",
+    "question": "What is the dominant visible surface pattern on the umbrella, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0272",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0274",
+    "question": "What is the dominant visible surface pattern on the umbrella, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0275",
+    "question": "What is the main surface color of the glass jar? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0278",
+    "question": "How many distinct flowerpots are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0281",
+    "question": "How many distinct books are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0282",
+    "question": "Is any mug visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0283",
+    "question": "Is any suitcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0284",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0289",
+    "question": "Does the visible surface of the plate look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0291",
+    "question": "Is any scarf visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0292",
+    "question": "Is the ball inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0295",
+    "question": "Is any notebook visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0297",
+    "question": "From the viewer perspective, is the coffee pot left of, right of, or horizontally aligned with the mug? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "left",
+      "right",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0299",
+    "question": "What is the main surface color of the fountain? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0301",
+    "question": "How many distinct baskets are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0302",
+    "question": "Is the ball inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0303",
+    "question": "What is the dominant visible surface pattern on the sock, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0304",
+    "question": "What is the main surface color of the water bottle? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0308",
+    "question": "Is any bowl visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0310",
+    "question": "How many distinct bottles are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0312",
+    "question": "After confirming the identity of the sign, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0313",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0314",
+    "question": "After confirming the identity of the tray, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0316",
+    "question": "After confirming the identity of the floor mat, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0317",
+    "question": "What is the main surface color of the table? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0318",
+    "question": "Is the picture frame above, below, or vertically aligned with the wall clock in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0319",
+    "question": "After confirming the identity of the tabletop, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0321",
+    "question": "Is any bench visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0324",
+    "question": "Is the hat inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0326",
+    "question": "What is the main surface color of the bench? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0331",
+    "question": "After confirming the identity of the mirror, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0332",
+    "question": "What is the main surface color of the fountain? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0333",
+    "question": "Is the picture frame above, below, or vertically aligned with the wall clock in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0335",
+    "question": "Is any bench visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0336",
+    "question": "Is any watering can visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0337",
+    "question": "After confirming the identity of the cushion, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0340",
+    "question": "Is the hat inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0343",
+    "question": "What is the main surface color of the truck? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0344",
+    "question": "Is any mug visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0346",
+    "question": "Is the notebook in front of, behind, or at the same depth as the pencil case? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0354",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0360",
+    "question": "Is the apple inside, outside, or partially inserted into the interior space of the bowl? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0361",
+    "question": "How many distinct hats are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0364",
+    "question": "What is the main surface color of the hourglass? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0365",
+    "question": "What is the main surface color of the hourglass? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0368",
+    "question": "What is the main surface color of the water bottle? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0369",
+    "question": "What is the dominant visible surface pattern on the handbag, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0370",
+    "question": "How many distinct bottles are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0373",
+    "question": "Does the visible surface of the plate look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0374",
+    "question": "Does the visible surface of the sculpture look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0377",
+    "question": "What is the dominant visible surface pattern on the sock, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0379",
+    "question": "How many distinct flowerpots are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0381",
+    "question": "What is the main surface color of the fountain? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0388",
+    "question": "How many distinct books are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0389",
+    "question": "Is any watering can visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0392",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0395",
+    "question": "How many distinct remote controls are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0396",
+    "question": "What is the main surface color of the tray? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0397",
+    "question": "After confirming the identity of the cushion, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0399",
+    "question": "How many distinct toy cars are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0400",
+    "question": "Is the shelf above, below, or vertically aligned with the mirror in the image? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "above",
+      "below",
+      "aligned"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0403",
+    "question": "Is the hat inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0404",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0405",
+    "question": "After confirming the identity of the floor mat, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0407",
+    "question": "Is any bowl visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0409",
+    "question": "What is the main surface color of the glass jar? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0411",
+    "question": "What is the main surface color of the handbag? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0412",
+    "question": "After confirming the identity of the tabletop, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0414",
+    "question": "After confirming the identity of the tray, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0415",
+    "question": "What is the dominant visible surface pattern on the handbag, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0416",
+    "question": "What is the dominant visible surface pattern on the blanket, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0418",
+    "question": "How many distinct bottles are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0421",
+    "question": "What is the dominant visible surface pattern on the sock, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0422",
+    "question": "Does the visible surface of the tray look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0424",
+    "question": "Is any scarf visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0428",
+    "question": "What is the main surface color of the tray? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0430",
+    "question": "Does the visible surface of the stone look rough, smooth, mixed, or other? Use visible surface detail, not material stereotypes. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "rough",
+      "smooth",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0434",
+    "question": "After confirming the identity of the sign, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0437",
+    "question": "Is the ball inside, outside, or partially inserted into the interior space of the basket? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0438",
+    "question": "After confirming the identity of the rug, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0441",
+    "question": "Is the spoon inside, outside, or partially inserted into the interior space of the mug? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0443",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0444",
+    "question": "How many distinct mugs are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0449",
+    "question": "What is the main surface color of the shoe? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0451",
+    "question": "What is the main surface color of the truck? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0456",
+    "question": "Is any bookcase visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0457",
+    "question": "Is the notebook in front of, behind, or at the same depth as the pencil case? Use depth and occlusion evidence, not vertical image position alone. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "front",
+      "behind",
+      "same_depth"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0458",
+    "question": "After confirming the identity of the plate, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0462",
+    "question": "What is the main surface color of the tray? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0464",
+    "question": "What is the dominant visible surface pattern on the sock, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0466",
+    "question": "What is the dominant visible surface pattern on the umbrella, not the background? Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "striped",
+      "checkered",
+      "polka-dotted",
+      "plain",
+      "mixed",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0468",
+    "question": "After confirming the identity of the mirror, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0470",
+    "question": "After confirming the identity of the picture frame, what is its overall boundary shape, excluding patterns, holes, parts and shadows? Use the object shape when perspective is identifiable; otherwise use unclear. Round means circular rather than merely curved; oval means elongated rounded outline; square and non-square rectangular are separate. Do not substitute a face of a different 3D object. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "round",
+      "oval",
+      "square",
+      "rectangular",
+      "triangular",
+      "other"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0473",
+    "question": "Is any bowl visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0474",
+    "question": "What is the main surface color of the bench? Ignore small decorations, highlights and shadows. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "black",
+      "blue",
+      "brown",
+      "green",
+      "orange",
+      "pink",
+      "purple",
+      "red",
+      "white",
+      "yellow",
+      "other",
+      "multicolored"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0477",
+    "question": "How many distinct flowerpots are visible? Count physical instances, not reflections or pictures of them. Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=0. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": "nonnegative_integer",
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0478",
+    "question": "Is the apple inside, outside, or partially inserted into the interior space of the bowl? Inside means seated or contained in the interior; extension above an opening does not by itself make it partial. Outside means not occupying the interior. Partial means crossing the opening without clear settled containment. Use unclear when the physical relation cannot be established. Bounding-box overlap alone is not containment. Response schema for this task: For this task, identity_status must be present, missing, ambiguous, or unclear. For a non-present identity use the same status and answer=null. With present identity, an unresolved property may use status=unclear, answer=null; otherwise use status=ok and an allowed answer.",
+    "allowed_answers": [
+      "inside",
+      "outside",
+      "partial"
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  },
+  {
+    "blind_id": "image_0479",
+    "question": "Is any bench visibly present? Response schema for this task: For this task, identity_status must be present, absent, or unclear; never missing or ambiguous. If the object is absent, use identity_status=absent, status=ok, answer=false. If presence or exact enumeration cannot be resolved, use identity_status=unclear, status=unclear, answer=null. Otherwise use identity_status=present, status=ok and an allowed answer. Multiple instances do not make this task ambiguous.",
+    "allowed_answers": [
+      true,
+      false
+    ],
+    "identity_status": null,
+    "status": null,
+    "answer": null,
+    "notes": ""
+  }
+]

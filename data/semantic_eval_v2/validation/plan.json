@@ -1,0 +1,39 @@
+{
+  "version": "semantic_v2_heldout_screen_v1",
+  "created_utc": "2026-09-08T12:10:23.868948+00:00",
+  "status": "frozen_before_heldout_inference",
+  "scope": "Exploratory AI-reviewed screening, not human-validated accuracy",
+  "sample": {
+    "images": 240,
+    "prompts": 60,
+    "images_per_prompt": 4,
+    "per_semantic_images": 40,
+    "per_semantic_prompts": 10,
+    "split": "held_out"
+  },
+  "fixed_primary": {
+    "object": "grounding_dino",
+    "count": "grounding_dino",
+    "color": "qwen_vlm",
+    "shape": "qwen_vlm",
+    "texture": "qwen_vlm",
+    "spatial_2d": "grounding_dino",
+    "spatial_depth_containment": "qwen_vlm"
+  },
+  "screening_criteria": {
+    "evaluation_errors": 0,
+    "minimum_clear_review_images": 30,
+    "minimum_clear_review_prompts": 8,
+    "minimum_binary_agreement": 0.9,
+    "minimum_observed_answer_agreement": 0.85,
+    "maximum_evaluator_uncertain_fraction": 0.25,
+    "minimum_review_success_images_for_false_failure_rate": 10,
+    "minimum_review_failure_images_for_false_success_rate": 10,
+    "maximum_false_success_rate_on_review_failures": 0.1,
+    "maximum_false_failure_rate_on_review_successes": 0.1
+  },
+  "decision_policy": "Pass only if all gates are met. Insufficient denominators are inconclusive, not pass. A pass supports exploratory scoring only. Failure requires a new development revision and new validation sample, not patching this held-out set. No full 6000-image launch is automatic.",
+  "review_policy": "AI review before reading model predictions, no expected answers or generation conditions supplied. Preserve uncertainty and identity ambiguity; do not force labels. Existing thread context prevents claiming fully independent blind human validation. Freeze review labels before joining predictions.",
+  "analysis_policy": "Report all 40 images per semantic, missing/ambiguous/unclear/error counts, raw answer agreement separately from binary success, and false-success/false-failure rates with denominators. DINO counts require exact-count agreement and MAE on numerically clear reference labels. Do not convert model errors to zero. Break down texture into pattern/surface and spatial into 2D/depth/containment. Subtypes with fewer than 10 clear images are descriptive/inconclusive. Report per-prompt agreement; do not treat four correlated images as independent replications. No inferential accuracy claim from this small AI-reviewed sample.",
+  "threshold_rationale": "Conservative operational screening targets chosen after development review and before held-out outputs, not literature-certified thresholds. Intended to avoid accepting a noisy evaluator on raw aggregate agreement. Known development failures may persist; this is a locked generalization check, not a declaration of development success."
+}

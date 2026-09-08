@@ -1,0 +1,287 @@
+{
+  "purpose": "Execution/schema check only, selected by task/noun before v3 results; not a semantic pass gate",
+  "rows": [
+    {
+      "name": "p026_s42_baseline",
+      "input_id": "object_027",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "d4777b7df8389809a08c9656dfe94eba0f69806b60bf4c7f88c9c5ed38298a54",
+      "split": "smoke"
+    },
+    {
+      "name": "p026_s42_full_mask",
+      "input_id": "object_027",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "764fe8e89537bba8d5f8c845c6d84ffd1c76dfde716f200d8053a8c278845c8d",
+      "split": "smoke"
+    },
+    {
+      "name": "p075_s42_baseline",
+      "input_id": "color_026",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "eef99c1a9f8866a67fe523ae4a30c101d829cccc76d7c3b085af89fbe96cf966",
+      "split": "smoke"
+    },
+    {
+      "name": "p075_s42_full_mask",
+      "input_id": "color_026",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "a1810191d0972356df6b41e7b14460217c83ff3f46a6c1e82fd37c845eeabe44",
+      "split": "smoke"
+    },
+    {
+      "name": "p100_s42_baseline",
+      "input_id": "shape_001",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "df93ef34dc9dafe7839ae40602cdf175ac7ed01eac0d9ebb5fa167362d0b95c5",
+      "split": "smoke"
+    },
+    {
+      "name": "p100_s42_full_mask",
+      "input_id": "shape_001",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "bac392d5333c941d165b29cd7f080a77b71c7ed6e6b9bab7505c9c29cad099d1",
+      "split": "smoke"
+    },
+    {
+      "name": "p183_s42_baseline",
+      "input_id": "texture_034",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "aafc5ab1f3240c09ed75657fbaa001e9f4aeadff05d085a237e405a5cba3c988",
+      "split": "smoke"
+    },
+    {
+      "name": "p183_s42_full_mask",
+      "input_id": "texture_034",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "e6108b61dd86447cb4b884b9d740cdb7c2a3291157e923d3abb188174a930877",
+      "split": "smoke"
+    },
+    {
+      "name": "p204_s42_baseline",
+      "input_id": "count_005",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "f5c02a2c65a86c063f671216d786535cde133a28a4051d239119871b285487a6",
+      "split": "smoke"
+    },
+    {
+      "name": "p204_s42_full_mask",
+      "input_id": "count_005",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "fe2ec6dc25960a2e8d0b02eb15647f480d2764061b65079361a509cff095c53e",
+      "split": "smoke"
+    },
+    {
+      "name": "p251_s42_baseline",
+      "input_id": "spatial_relation_002",
+      "seed": 42,
+      "masked_scales": [],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 0
+        },
+        {
+          "direction": "suffix",
+          "boundary": 10
+        }
+      ],
+      "image_sha256": "f05264761d4c4f757ec9e50178ba996fc2ed1f0649bdb60671bc6191988eb321",
+      "split": "smoke"
+    },
+    {
+      "name": "p251_s42_full_mask",
+      "input_id": "spatial_relation_002",
+      "seed": 42,
+      "masked_scales": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ],
+      "aliases": [
+        {
+          "direction": "prefix",
+          "boundary": 10
+        },
+        {
+          "direction": "suffix",
+          "boundary": 0
+        }
+      ],
+      "image_sha256": "be658c66a824996dae3a4800251041baf5b181e62b57bb7be0116edea2be152d",
+      "split": "smoke"
+    }
+  ]
+}

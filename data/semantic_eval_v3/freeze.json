@@ -1,0 +1,15 @@
+{
+  "version": "semantic_eval_v3_exploratory",
+  "frozen_utc": "2026-09-08T12:33:22.901310+00:00",
+  "scientific_status": "Exploratory; revised after held-out audit, no independent validation claim",
+  "sha256": {
+    "run_semantic_full.py": "472fa75b8d1d0b6fdc694becd0913e9b21f3a646ac3fe33dca8c3e37a96ffb99",
+    "semantic_scoring.py": "e4985df7021b2a33ac25540f5958eb072d3cdee74cead63a8b8cb8c30cf0984f",
+    "run_semantic_v3_full.sh": "29b97c8a6babca5c806aa7ba4ac0bae96fcadb082b763d2852ca30d1a8c04366",
+    "data/semantic_eval_v3/build.py": "3d86fafa683ae6ba89834ee2974f2cc9edc969c53d976fd471f7e2dc4336562b",
+    "data/semantic_eval_v3/checks.json": "2e2e39d44705bec3ef20ae15d3fbfc5a66bc21389839495b25264b2921d9e6ce",
+    "data/semantic_eval_v3/full_sample.json": "b336a21df70c35b475a1f43a86d47f7a744d5dc52392821f577e6959740619e5",
+    "data/semantic_eval_v3/smoke_sample.json": "c71893df3530948134c975c47ce5574cc10b808d496d5ed874b9ef5232a05c5b",
+    "data/semantic_eval_v1/calibration.json": "e2e9e64ff1b022c6ad5d53bd1b178747e3a532d9f2a6523fd4758b711cc0d842"
+  }
+}

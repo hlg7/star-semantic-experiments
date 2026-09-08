@@ -1,0 +1,1209 @@
+{
+  "reviewer": "Codex AI visual inspection; not human ground truth",
+  "method": "AI visual inspection of 240 images in 20 contact sheets at original 256px resolution, plus individual rechecks. Questions shown without expected answers or mask labels. Some outputs were previously exposed during debugging; this is not fully blind or independent validation. No human labels.",
+  "rows": [
+    {
+      "blind_id": "image_0001",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0002",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0003",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0004",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0005",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0006",
+      "status": "ok",
+      "answer": "red"
+    },
+    {
+      "blind_id": "image_0008",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0009",
+      "status": "ok",
+      "answer": "yellow"
+    },
+    {
+      "blind_id": "image_0011",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0013",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0014",
+      "status": "ok",
+      "answer": "orange"
+    },
+    {
+      "blind_id": "image_0020",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0022",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0023",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0025",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0029",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0031",
+      "status": "ok",
+      "answer": "black"
+    },
+    {
+      "blind_id": "image_0032",
+      "status": "ok",
+      "answer": "rectangular"
+    },
+    {
+      "blind_id": "image_0035",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0038",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0040",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0047",
+      "status": "ok",
+      "answer": "orange"
+    },
+    {
+      "blind_id": "image_0050",
+      "status": "ok",
+      "answer": "left"
+    },
+    {
+      "blind_id": "image_0052",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0054",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0056",
+      "status": "ok",
+      "answer": "purple",
+      "notes": "Rechecked individual original PNG after contact-sheet review."
+    },
+    {
+      "blind_id": "image_0059",
+      "status": "ok",
+      "answer": "smooth"
+    },
+    {
+      "blind_id": "image_0061",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0062",
+      "status": "ok",
+      "answer": "triangular"
+    },
+    {
+      "blind_id": "image_0064",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0065",
+      "status": "ok",
+      "answer": "brown"
+    },
+    {
+      "blind_id": "image_0071",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0073",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0074",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0075",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0076",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0077",
+      "status": "ok",
+      "answer": "same_depth"
+    },
+    {
+      "blind_id": "image_0079",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0081",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0082",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0083",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0085",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0087",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0093",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0095",
+      "status": "ok",
+      "answer": "orange"
+    },
+    {
+      "blind_id": "image_0097",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0099",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0101",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0102",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0104",
+      "status": "ok",
+      "answer": "triangular"
+    },
+    {
+      "blind_id": "image_0107",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0111",
+      "status": "ok",
+      "answer": "black"
+    },
+    {
+      "blind_id": "image_0112",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0113",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0114",
+      "status": "ok",
+      "answer": "green"
+    },
+    {
+      "blind_id": "image_0115",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0118",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0122",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0123",
+      "status": "ok",
+      "answer": "orange"
+    },
+    {
+      "blind_id": "image_0124",
+      "status": "ok",
+      "answer": "square"
+    },
+    {
+      "blind_id": "image_0125",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0126",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0127",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0128",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0134",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0135",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0136",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0137",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0138",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0139",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0141",
+      "status": "ok",
+      "answer": "rectangular"
+    },
+    {
+      "blind_id": "image_0142",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0144",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0146",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0149",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0151",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0152",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0154",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0155",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0157",
+      "status": "ok",
+      "answer": "brown"
+    },
+    {
+      "blind_id": "image_0160",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0162",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0163",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0164",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0167",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0171",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0172",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0174",
+      "status": "ok",
+      "answer": "left"
+    },
+    {
+      "blind_id": "image_0175",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0176",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0177",
+      "status": "ok",
+      "answer": "black"
+    },
+    {
+      "blind_id": "image_0181",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0184",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0187",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0193",
+      "status": "ok",
+      "answer": "round"
+    },
+    {
+      "blind_id": "image_0194",
+      "status": "ok",
+      "answer": "triangular"
+    },
+    {
+      "blind_id": "image_0197",
+      "status": "ok",
+      "answer": "same_depth"
+    },
+    {
+      "blind_id": "image_0199",
+      "status": "ok",
+      "answer": 3
+    },
+    {
+      "blind_id": "image_0201",
+      "status": "ok",
+      "answer": true,
+      "notes": "Rechecked individual original PNG after contact-sheet review."
+    },
+    {
+      "blind_id": "image_0204",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0206",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0208",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0210",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0214",
+      "status": "ok",
+      "answer": 4,
+      "notes": "Rechecked individual original PNG after contact-sheet review."
+    },
+    {
+      "blind_id": "image_0216",
+      "status": "ok",
+      "answer": "smooth"
+    },
+    {
+      "blind_id": "image_0219",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0222",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0226",
+      "status": "ok",
+      "answer": "red"
+    },
+    {
+      "blind_id": "image_0227",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0228",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0234",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0236",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0238",
+      "status": "ok",
+      "answer": "green"
+    },
+    {
+      "blind_id": "image_0239",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0242",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0243",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0244",
+      "status": "ok",
+      "answer": "rectangular"
+    },
+    {
+      "blind_id": "image_0245",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0246",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0248",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0249",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0250",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0252",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0254",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0256",
+      "status": "ok",
+      "answer": "rough"
+    },
+    {
+      "blind_id": "image_0257",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0260",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0265",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0267",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0273",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0276",
+      "status": "ok",
+      "answer": "smooth"
+    },
+    {
+      "blind_id": "image_0277",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0279",
+      "status": "ok",
+      "answer": "brown"
+    },
+    {
+      "blind_id": "image_0280",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0285",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0286",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0287",
+      "status": "ok",
+      "answer": "black"
+    },
+    {
+      "blind_id": "image_0288",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0290",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0293",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0294",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0296",
+      "status": "ok",
+      "answer": "square"
+    },
+    {
+      "blind_id": "image_0298",
+      "status": "ok",
+      "answer": "brown"
+    },
+    {
+      "blind_id": "image_0300",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0305",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0306",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0307",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0309",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0311",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0315",
+      "status": "ok",
+      "answer": "yellow"
+    },
+    {
+      "blind_id": "image_0320",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0322",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0323",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0325",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0327",
+      "status": "ok",
+      "answer": "smooth"
+    },
+    {
+      "blind_id": "image_0328",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0329",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0330",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0334",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0338",
+      "status": "ok",
+      "answer": 4
+    },
+    {
+      "blind_id": "image_0339",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0341",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0342",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0345",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0347",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0348",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0349",
+      "status": "ok",
+      "answer": "triangular"
+    },
+    {
+      "blind_id": "image_0350",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0351",
+      "status": "ok",
+      "answer": 4
+    },
+    {
+      "blind_id": "image_0352",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0353",
+      "status": "ok",
+      "answer": "checkered"
+    },
+    {
+      "blind_id": "image_0355",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0356",
+      "status": "ok",
+      "answer": "checkered"
+    },
+    {
+      "blind_id": "image_0357",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0358",
+      "status": "ok",
+      "answer": "yellow"
+    },
+    {
+      "blind_id": "image_0359",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0362",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0363",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0366",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0367",
+      "status": "ok",
+      "answer": "red"
+    },
+    {
+      "blind_id": "image_0371",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0372",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0375",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0376",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0378",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0380",
+      "status": "ok",
+      "answer": "same_depth"
+    },
+    {
+      "blind_id": "image_0382",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0383",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0384",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0385",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0386",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0387",
+      "status": "ambiguous",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0390",
+      "status": "ok",
+      "answer": "checkered"
+    },
+    {
+      "blind_id": "image_0391",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0393",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0394",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0398",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0401",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0402",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0406",
+      "status": "ok",
+      "answer": false
+    },
+    {
+      "blind_id": "image_0408",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0410",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0413",
+      "status": "ok",
+      "answer": "red"
+    },
+    {
+      "blind_id": "image_0417",
+      "status": "ok",
+      "answer": "purple"
+    },
+    {
+      "blind_id": "image_0419",
+      "status": "ok",
+      "answer": "square"
+    },
+    {
+      "blind_id": "image_0420",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0423",
+      "status": "ok",
+      "answer": "green"
+    },
+    {
+      "blind_id": "image_0425",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0426",
+      "status": "ok",
+      "answer": "yellow"
+    },
+    {
+      "blind_id": "image_0427",
+      "status": "ok",
+      "answer": "purple"
+    },
+    {
+      "blind_id": "image_0429",
+      "status": "ok",
+      "answer": "polka-dotted"
+    },
+    {
+      "blind_id": "image_0431",
+      "status": "ok",
+      "answer": "green"
+    },
+    {
+      "blind_id": "image_0432",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0433",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0435",
+      "status": "ok",
+      "answer": "purple"
+    },
+    {
+      "blind_id": "image_0436",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0439",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0440",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0442",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0445",
+      "status": "ok",
+      "answer": "partial"
+    },
+    {
+      "blind_id": "image_0446",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0447",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0448",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0450",
+      "status": "ok",
+      "answer": "striped"
+    },
+    {
+      "blind_id": "image_0452",
+      "status": "ok",
+      "answer": 2
+    },
+    {
+      "blind_id": "image_0453",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0454",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0455",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0459",
+      "status": "ok",
+      "answer": "round"
+    },
+    {
+      "blind_id": "image_0460",
+      "status": "ok",
+      "answer": "rectangular"
+    },
+    {
+      "blind_id": "image_0461",
+      "status": "unclear",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0463",
+      "status": "ok",
+      "answer": "square"
+    },
+    {
+      "blind_id": "image_0465",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0467",
+      "status": "ok",
+      "answer": true
+    },
+    {
+      "blind_id": "image_0469",
+      "status": "ok",
+      "answer": 4
+    },
+    {
+      "blind_id": "image_0471",
+      "status": "missing",
+      "answer": null
+    },
+    {
+      "blind_id": "image_0472",
+      "status": "ok",
+      "answer": "checkered"
+    },
+    {
+      "blind_id": "image_0475",
+      "status": "ok",
+      "answer": "same_depth"
+    },
+    {
+      "blind_id": "image_0476",
+      "status": "ok",
+      "answer": "oval"
+    },
+    {
+      "blind_id": "image_0480",
+      "status": "ok",
+      "answer": "rough"
+    }
+  ]
+}

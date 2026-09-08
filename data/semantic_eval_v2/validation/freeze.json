@@ -1,0 +1,14 @@
+{
+  "version": "semantic_v2_heldout_screen_v1",
+  "created_utc": "2026-09-08T12:10:23.868948+00:00",
+  "sha256": {
+    "run_semantic_pilot.py": "3de16f3935c8a3dbd1459a5ec8f90d65a419cc2ee45332a99d6413499f7d61f1",
+    "semantic_scoring.py": "e4985df7021b2a33ac25540f5958eb072d3cdee74cead63a8b8cb8c30cf0984f",
+    "export_semantic_review.py": "0d35ea93840c701fb1c65cf80003b7982e226dcdc2e08afa0156a68e96d7ac59",
+    "data/semantic_eval_v1/calibration.json": "e2e9e64ff1b022c6ad5d53bd1b178747e3a532d9f2a6523fd4758b711cc0d842",
+    "data/semantic_eval_v1/pilot/sample.json": "f9ebc07ecaeebd79f4f0808cf20e33d785fbf551bf73973100c759cdb2539640",
+    "data/semantic_eval_v2/checks.json": "fac0230b146218f7b111bbdeacd1ee30a139b73fb11fef393b6608983e614d07",
+    "data/semantic_eval_v2/validation/plan.json": "4d7870e8afaa1d68a3c329deff8ae43dca044f314a0758c369bc3c092b55a75e",
+    "data/semantic_eval_v2/validation/ai_labels.template.json": "82e13cadc9d7d88c4bd876a5f245368020a6595cb708baeccf87b2f3574adf09"
+  }
+}

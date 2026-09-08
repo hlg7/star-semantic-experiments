@@ -11,6 +11,27 @@ Scale-wise interventions on **STAR d30 at 256×256**. We block cross-attention a
 
 [Prompt review](data/csfm50_v1/review.md) · [Per-image metrics](reports/2026-09-06/metrics.jsonl) · [Curve data CSV](reports/2026-09-06/curve_data.csv) · [Numerical summary](reports/2026-09-06/results_summary.json)
 
+## Semantic evaluation completed on September 9, 2026
+
+Evaluated the same **6,000 images** with fixed primary tools: **2,600 Grounding DINO** evaluations and **3,400 Qwen3-VL** evaluations. There are **5,999 valid scores and one explicitly excluded color-category error**. No images were regenerated.
+
+The [v3 rubric](data/semantic_eval_v3/README.md) was clarified after the [held-out audit](reports/2026-09-08/heldout/README.md). These are **exploratory automatic scores, not validated semantic accuracy**. Prior pilot scores are kept separate; original LPIPS and CLIPScore results below are unchanged.
+
+| Semantic | Baseline | Full mask | Paired change | Gained / lost successes |
+|---|---:|---:|---:|---:|
+| Object | 94% | 90% | -4 pp | 0 / 2 |
+| Color | 78% | 84% | +6 pp | 4 / 1 |
+| Shape | 38% | 36% | -2 pp | 1 / 2 |
+| Texture | 80% | 84% | +4 pp | 4 / 2 |
+| Count | 18% | 16% | -2 pp | 4 / 5 |
+| Spatial Relation | 26% | 26% | +0 pp | 2 / 2 |
+
+![Semantic success and paired changes](reports/2026-09-09/plots/overview.jpg)
+
+[Full report and all figures](reports/2026-09-09/README.md) · [Curve CSV](reports/2026-09-09/curve_data.csv) · [Per-image results](reports/2026-09-09/metrics.jsonl)
+
+There are 31 PNG/PDF figures: six semantics each with success, paired change, uncertainty and baseline-correct retention; six texture/spatial subtype plots; and a count-deviation plot. Masking does not consistently decrease automatic scores. Gains and losses can cancel, and perception errors, unchanged global conditioning, low baseline success and one seed limit causal conclusions.
+
 ## Scale curves
 
 The horizontal axis **k denotes a boundary between scales**, not an additional generation scale. STAR has 10 scales with square token grids of side lengths `1, 2, 3, 4, 5, 6, 8, 10, 13, 16`.
@@ -164,6 +185,26 @@ Full-mask endpoint means are shown below. `CLIP drop = baseline − full mask`; 
     ├── metric_summary.json           # Evaluator completion and baseline self-checks
     ├── audit_summary.json            # Independently checked generation invariants
     └── token_check.json              # Tokenization and target-position validation
+```
+
+### Semantic evaluation files added September 8–9
+
+```text
+data/semantic_eval_v1/       # Initial evaluation specifications and pilot sampling
+data/semantic_eval_v2/       # General rules and frozen held-out screening plan
+data/semantic_eval_v3/       # Final exploratory definitions, 6000-image sample, hashes
+run_semantic_pilot.py        # CUDA pilot adapter (historical frozen runs)
+run_semantic_full.py         # CUDA primary-only full-set adapter
+run_semantic_v3_full.sh      # Execution check followed by full inference
+semantic_scoring.py         # Strict response parsing and pure scoring rules
+analyze_semantic_heldout.py  # Frozen AI-review comparison
+summarize_semantic_full.py   # Provenance checks and paired aggregation
+plot_semantic_full.py        # 31 semantic PNG/PDF figures
+requirements-semantic.txt   # Model evaluation dependencies
+requirements-plots.txt      # Local plotting dependencies
+reports/2026-09-08/          # Development and held-out audit evidence
+reports/2026-09-09/          # Final exploratory scores, CSV, report and plots
+tests/                      # Semantic protocol and workload checks
 ```
 
 **Which files are needed?**
