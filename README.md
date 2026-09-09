@@ -11,6 +11,10 @@ Scale-wise interventions on **STAR d30 at 256×256**. We block cross-attention a
 
 [Prompt review](data/csfm50_v1/review.md) · [Per-image metrics](reports/2026-09-06/metrics.jsonl) · [Curve data CSV](reports/2026-09-06/curve_data.csv) · [Numerical summary](reports/2026-09-06/results_summary.json)
 
+## Reuse the evaluators with another backbone
+
+The standalone public package is now available at **[hlg7/semantic-evaluators](https://github.com/hlg7/semantic-evaluators)**. It accepts a generic image/task JSONL manifest, supports arbitrary image dimensions and optional baseline pairs, and includes a STAR importer that preserves the frozen questions. Its model-free tests and replay of 5,999 original valid scores pass; the refactored GPU CLI has not yet been run. This research repository retains the original frozen experiment and results for reproducibility.
+
 ## Semantic evaluation completed on September 9, 2026
 
 Evaluated the same **6,000 images** with fixed primary tools: **2,600 Grounding DINO** evaluations and **3,400 Qwen3-VL** evaluations. There are **5,999 valid scores and one explicitly excluded color-category error**. No images were regenerated.
